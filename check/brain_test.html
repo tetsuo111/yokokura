@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+<meta name="description" content="快食・快眠・快便・快適・・・。脳疲労解消で心身の健康管理">
+<meta name="keywords" content="健康,更年期障害,肥満,生活習慣病,ストレス,疲労,うつ,子宮癌,乳がん,自律神経失調症,月経困難症,子宮内膜症,生理不順,排卵障害,卵巣機能不全,避妊,不妊症,女性の健康,脳疲労,五感療法,アロマセラピー,アートセラピー,サウンドセラピー,快食,快便,快眠,メンタル,健康外来,禁煙">
+<title>脳力チェックテスト</title>
+
+<link rel="stylesheet" href="../css/import.css" />
+<script src="../js/jquery-1.11.0.min.js"></script>
+<script src="../js/common.js"></script>
+
+<!--[if lt IE 9]>
+<script src="../jshtml5.js"></script>
+<![endif]-->
+</head>
+<body>
+<div id="wrapper">
+	<!-- ヘッダー開始 -->
+	<header id="header">
+		<div class="wrap">
+			<h1><a href="/"><img src="../images/logo.png" width="114" height="265" alt="健康外来サロン" /></a></h1>
+			<nav id="navi">
+				<ul>
+					<li><a href="../index.html">健康外来サロンとは？</a></li>
+					<li><a href="../personal/index.html">サロンメニュー</a></li>
+					<li><a class="active" href="../check/index.html">チェックテスト</a></li>
+				</ul>
+			</nav>
+			<div class="event_link"><a class="opa" href="#">無風庵</a></div>
+		</div>
+	</header>
+	<!-- ヘッダー終了 -->
+	<!-- ページタイトル開始 -->
+	<div id="page_title">
+		<h2><img src="../images/page_title_01.png" width="359" height="82" alt="健康外来サロンとは？" /></h2>
+	</div>
+	<!-- ページタイトル終了 -->
+	<!-- コンテンツ開始 -->
+	<div id="content" class="clearfix">
+		<!-- メインコンテンツ開始 -->
+		<article  class="check-main">
+			
+			<section class="post">
+				<header class="title">
+					<h2> 脳力チェックテスト結果</h2>
+				</header>
+				<div class="desc">
+					<p>ここ2〜3週間の状態について、3つのうち当てはまる数字を選んでください。 </p>
+					<p class="bold">2 = ほぼYES ・ 1 = どちらともいえない ・ 0 = ほぼNO </p>
+				</div>
+				<form method="get" action="brain_result.php" onsubmit="return validate(this);">
+					<table class="tb01" >
+						<tr>
+							<th colspan="5">脳健幸度チェックテスト</th>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>身体が軽く感じる。</td>
+							<td><input type="radio" name="q1" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q1" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q1" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>ストレスがあっても、あまり気にならない</td>
+							<td><input type="radio" name="q2" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q2" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q2" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>自分自身のことが好き。</td>
+							<td><input type="radio" name="q3" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q3" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q3" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>やりたいことがあって、それを実行でき、生きがいを感じる。</td>
+							<td><input type="radio" name="q4" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q4" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q4" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td>笑いの90%以上は「本音」笑い。　（愛想笑いではない）</td>
+							<td><input type="radio" name="q5" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q5" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q5" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>6</td>
+							<td>直感が当たる方だ。</td>
+							<td><input type="radio" name="q6" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q6" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q6" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>7</td>
+							<td>日々の生活や仕事に手ごたえがある。</td>
+							<td><input type="radio" name="q7" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q7" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q7" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>8</td>
+							<td>食事は、理屈ではなく、美味しく・楽しく食べている。</td>
+							<td><input type="radio" name="q8" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q8" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q8" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>9</td>
+							<td>ストレス解消ではなく、自分が楽しむための時間をもっている。</td>
+							<td><input type="radio" name="q9" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q9" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q9" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>10</td>
+							<td>人や空の変化、花が咲いていることによく気づく。</td>
+							<td><input type="radio" name="q10" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q10" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q10" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>11</td>
+							<td>気持ちの切りかえが、すぐにできる。</td>
+							<td><input type="radio" name="q11" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q11" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q11" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>12</td>
+							<td>日々、満足感がある。</td>
+							<td><input type="radio" name="q12" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q12" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q12" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>13</td>
+							<td>感謝の気持ちが自然に湧いてくる。</td>
+							<td><input type="radio" name="q13" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q13" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q13" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>14</td>
+							<td>色々なことがあるけれど「今の納得度」は90%以上。</td>
+							<td><input type="radio" name="q14" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q14" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q14" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>15</td>
+							<td>「幸せ？」と聞かれたら、答えは「YES！」。</td>
+							<td><input type="radio" name="q15" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q15" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q15" value="0"><span class="mr10">0</span></td>
+						</tr>
+					</table>
+					<table class="tb01" >
+						<tr>
+							<th colspan="5">脳疲弊度チェックテスト</th>
+						</tr>
+						<tr>
+							<td>16</td>
+							<td>気持ちが沈んで憂鬱な気分になることがありますか。</td>
+							<td><input type="radio" name="q16" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q16" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q16" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>17</td>
+							<td>夜、眠りが浅かったり、朝早く目が覚めることがありますか。</td>
+							<td><input type="radio" name="q17" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q17" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q17" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>18</td>
+							<td>自分を必要以上に責めてしまうことありますか。</td>
+							<td><input type="radio" name="q18" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q18" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q18" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>19</td>
+							<td>普段から寝つきが悪いですか。</td>
+							<td><input type="radio" name="q19" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q19" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q19" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>20</td>
+							<td>食事を単に習慣で食べていたり、美味しくないと感じることがありますか。</td>
+							<td><input type="radio" name="q20" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q20" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q20" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>21</td>
+							<td>以前楽しかったことが、楽しくないと思うことがありますか。</td>
+							<td><input type="radio" name="q21" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q21" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q21" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>22</td>
+							<td>会社や友人や家族との人付き合いが、面倒になることがありますか。</td>
+							<td><input type="radio" name="q22" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q22" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q22" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>23</td>
+							<td>便秘がちになることがありますか。</td>
+							<td><input type="radio" name="q23" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q23" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q23" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>24</td>
+							<td>ぼんやり考え込んで、決断することが鈍くなっていると感じますか。</td>
+							<td><input type="radio" name="q24" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q24" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q24" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>25</td>
+							<td>身体を使わないのに、疲れを感じることがありますか。</td>
+							<td><input type="radio" name="q25" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q25" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q25" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>26</td>
+							<td>外出が億劫になることがありますか。</td>
+							<td><input type="radio" name="q26" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q26" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q26" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>27</td>
+							<td>仕事や家事が面倒くさいと思うことがありますか。</td>
+							<td><input type="radio" name="q27" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q27" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q27" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>28</td>
+							<td>時々、やたらに不安になることありますか。</td>
+							<td><input type="radio" name="q28" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q28" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q28" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>29</td>
+							<td>本を（活字）を読んでもすぐに理解できないことがありますか。</td>
+							<td><input type="radio" name="q29" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q29" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q29" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td>30</td>
+							<td>イライラすることが度々ありますか。</td>
+							<td><input type="radio" name="q30" value="2" checked><span class="mr10">2</span></td>
+							<td><input type="radio" name="q30" value="1"><span class="mr10">1</span></td>
+							<td><input type="radio" name="q30" value="0"><span class="mr10">0</span></td>
+						</tr>
+						<tr>
+							<td colspan="5"><button type="submit" class="btn-1"><span>結果を見る</span></button></td>
+						</tr>
+					</table>
+				</form>
+			</section>
+		</article>
+
+	</div>
+	<!-- コンテンツ終了 -->
+	<!-- フッター開始 -->
+	<footer id="footer">
+		<div class="wrap">
+			<div class="info">
+				<div class="logo"><a href="/"><img src="../images/footer_logo.png" width="258" height="53" alt="健康外来サロン" /></a></div>
+				<p class="address">〒108-0014 東京都港区芝5-13-13 サダカビル3F</p>
+			</div>
+			<nav class="link">
+				<div class="box01">
+					<ul>
+						<li><a href="health/index.html">健康外来サロンとは？</a></li>
+						<li><a href="map.html">地図</a></li>
+					</ul>
+				</div>
+				<div class="box02">
+					<ul>
+						<li><a href="check/index.html">チェックテスト</a></li>
+						<li><a href="user/trialreserve/form.html">お問い合わせ</a></li>
+						<li><a href="sitemap.html">サイトマップ</a></li>
+					</ul>
+				</div>
+				<div class="box03">
+					<ul>
+						<li><a href="personal/index.html">サロンメニュー</a></li>
+						<li><a href="intern.html">研修生募集</a></li>
+						<li><a href="privacy.html">プライバシーポリシー</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<p class="copyright">Copyright (C) 2010 Yokokura Clinic. All Rights Reserved. </p>
+		<div id="pagetop"><a class="opa" href="#wrapper"><img src="../images/pagetop.png" width="69" height="70" alt="page top" /></a></div>
+	</footer>
+	<!-- フッター終了 -->
+</div>
+
+</body>
+</html>
