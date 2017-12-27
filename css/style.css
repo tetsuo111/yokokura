@@ -1,14 +1,40 @@
-/*****************************
-*コスモスターズ用 css
-*方針が決まり次第、別途その他のCSSに追記予定
-*
-*
-*
-*****************************/
-
 /*************************
-*共通項目(common.css追記事項)
+*共通
 **************************/
+
+#main.post-main{
+	text-align: center;
+	float: none !important;
+	position: relative;
+}
+
+#main.post-main .post .tit03{
+	text-align: center !important;
+}
+
+#main.post-main input[type="radio"]{
+	-webkit-appearance: radio ;
+	margin-right: 1.5em;
+}
+
+#main.post-main .post .btn-1{
+	width: 170px;
+	height: 38px;
+	line-height: 34px;
+	font-size: 15px;
+	font-family: "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+	color: #211f1f;
+	background: url("../images/arrow_05.png") no-repeat 130px center;
+	border: 2px solid #d3d8db;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
 select.txt_w120 {
 	-webkit-appearance: menulist-button;
 	padding: 0 10px;
@@ -45,86 +71,191 @@ button.btn-2{
 	color: white;
 }
 
-
-/*************************
-*健康外来サロン(health-)
-**************************/
-
-
-/*************************
-*サロンメニュー(personal-)
-**************************/
-
-
 /*************************
 *チェックテスト(check-)
 **************************/
-.check-header {}
-.check-main,
-.map-main{
-	width: 690px;
-	display: inline;
-	text-align: center;
-}
-.check-main .post .tit03{
-	text-align: center !important;
-}
 
-.check-main .post table th,
-.check-main .post table td{
+.tb01.checktest-table td:nth-child(1),
+.tb01.checktest-table td:nth-child(n + 3){
 	width: 10%;
 }
-.check-main .post table td:nth-child(2){
+
+.tb01.checktest-table td:nth-child(2){
 	width: 60%;
 	text-align: left;
 }
-.check-content {
-	margin: 0 auto;
-	padding: 42px 0 100px 0;
-	width: 670px;
+
+.tb01.checkresult-table td:nth-child(2){
+	width: 60%;
+	text-align: left;
+	padding-left: 20px;
 }
 
-.check-main input[type="radio"]{
-	-webkit-appearance: radio ;
-	-webkit-transform: scale(1.5);
-	transform: scale(1.5);
-	margin-right: 1.5em;
-	border: 1px solid black;
-	padding: 5px;
+.tb01.checkresult-table tfoot td{
+	border-bottom: none;
+	text-align: left;
 }
-.check-main input[type="radio"]:checked{
-	padding: 5px;
+/*************************
+*サロンメニュー saron
+**************************/
+.tea-table{
+	
 }
-.check-main .post .btn-1{
-	width: 170px;
-	height: 38px;
-	line-height: 34px;
+.tea-profile{
+	padding: 10px;
+}
+.tb02.tea-table th{
+	width: 20%;
+}
+.tb02.tea-table td{
+	width: 80%;
+}
+
+.tea-profile-image{
+	margin-right: 20px;
+}
+.tea-profile-image p{
+	margin-bottom: 0;
+}
+/*************************
+*お問い合わせ(inquiry-)
+**************************/
+
+.tb01.inquiry-table td:nth-child(2){
+	width: 80%;
+	text-align: left;
+	padding-left: 20px;
+}
+
+/*************************
+*サイトマップ(sitemap-)
+**************************/
+
+.post .sitemap-box{
+	text-align: left;
+	width: 48%;
+}
+
+/*************************
+*掲載メディア(media)
+**************************/
+
+.media a{
+	cursor: pointer;
+}
+
+.post .media table tbody tr th{
+	width: 11%;
+}
+
+.post .media table tbody tr td:nth-child(2),
+.post .media table tbody tr td:nth-child(3){
+	width: 40%;
+}
+
+/*************************
+*プライバシーポリシー
+**************************/
+
+.privacy{
+	text-align: left;
+}
+
+.privacy .privacy-box1 li{
+	margin-top: 20px;
+}
+
+.post .privacy .privacy-box2 ol:nth-child(1){
+	margin-left: 20px;
+}
+
+/*************************
+*ポップアップ(popupimage)
+**************************/
+
+.header_popupimage .wrap h1{
+	text-align: left;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 20px;
+	color: #015f4f;
+}
+
+.concept_box.concept_popupimage img{
+	position: relative;
+	right: 120px;
+}
+
+.side_poupimage{
+	position: relative;
+}
+
+.side_popupimage img{
+	position: absolute;
+	left: 0;
+}
+
+/*************************
+*プロフィール
+**************************/
+
+.side_profile p{
+	text-align: center;
+	padding: 10px;
+}
+
+.side_profile a{
+	margin: 0 0 0 0;
+	padding: 5px 45px 5px 20px;
+	line-height: 1.3em;
 	font-size: 15px;
+	font-weight: normal;
 	font-family: "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+	text-align: left;
 	color: #211f1f;
-	background: url("../images/arrow_05.png") no-repeat 130px center;
+	background: url("../images/arrow_01.png") no-repeat right 24px center;
 	border: 2px solid #d3d8db;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	cursor: pointer;
+	display: inline-block;
 }
-.check-resutl-table{
-	position: relative;
+
+.tb01.profile-table p{
+	text-align: left;
 }
-.check-result-table2 table{
-	width: 48%;
-	float: left;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-.check-result-table2 table td:first-child{
-	width: 30%;
+
+.tb02.profile-table2 td:nth-child(2){
+	width: 80%;
 }
 
 /*************************
-*地図
+*プロフィール
 **************************/
+.green2{
+	color: #015f4f;
+}
+.post table.tb02.orgnizer-table1 tr th{
+	width: 10%;
+}
+.post table.tb02.orgnizer-table1 tr td:nth-child(2){
+	width: 40%;
+}
+.post.orgnizer ul li{
+	background: none;
+}
+
+.post table.tb01.orgnizer-table2 tr td:nth-child(1){
+	width: 10%;
+}
+.post table.tb01.orgnizer-table2 tr td:nth-child(2),
+.post table.tb01.orgnizer-table3 tr th,
+.post table.tb01.orgnizer-table3 tr td{
+	vertical-align: middle;
+	text-align: left;
+}
+.post table.tb02.orgnizer-table1 tr th,
+.post table.tb02.orgnizer-table1 tr td{
+	vertical-align: middle;
+}
+

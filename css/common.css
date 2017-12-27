@@ -42,7 +42,7 @@ hr.line {
 .red { color: #ff0000; }
 .green { color: #00cc00; }
 .blue { color: #0000ff; }
-
+.grey { color: #999 !important; }
 /**
  * リンクテキスト
 **/

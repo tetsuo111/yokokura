@@ -26,7 +26,7 @@
 				<ul>
 					<li><a href="../../index.html">健康外来サロンとは？</a></li>
 					<li><a href="../../personal/index.html">サロンメニュー</a></li>
-					<li><a href="../../check/index.html">チェックテスト</a></li>
+					<li><a href="../../check/index.html">チェックテスト</a></li>\n<li>< a href="partner.html"></a></li>
 				</ul>
 			</nav>
 			<div class="event_link"><a class="opa" href="#">無風庵</a></div>
@@ -35,13 +35,13 @@
 	<!-- ヘッダー終了 -->
 	<!-- ページタイトル開始 -->
 	<div id="page_title">
-		<h2><img src="../../images/page_title_01.png" width="359" height="82" alt="健康外来サロンとは？" /></h2>
+		<!--<h2><img src="../../images/page_title_01.png" width="359" height="82" alt="健康外来サロンとは？" /></h2>-->
 	</div>
 	<!-- ページタイトル終了 -->
 	<!-- コンテンツ開始 -->
 	<div id="content" class="clearfix">
 		<!-- メインコンテンツ開始 -->
-		<article  class="check-main">
+		<article id="main" class="post-main">
 			
 			<section class="post">
 				<header class="title">
@@ -51,43 +51,43 @@
 					<p>ご質問、ご意見等ございましたら、以下のお問い合わせフォームに必要事項をご記入の上、送信してください。</p>
 					<p class="note">注意：「<font class="red">*</font>」が付いている項目は入力が必須です。半角カタカナは使用しないでください。 </p>
 				</div>
-				<form name="user_inquiry_form_EntryForm" method="post" action="/user/inquiry/diverge.do">
+				<form name="user_inquiry_form_EntryForm" method="post" action="diverge.php">
 					<input type="hidden" name="org.apache.struts.taglib.html.TOKEN" value="">
-					<table class="tb01" >
+					<table class="tb01 inquiry-table">
 						<tr>
 							<th colspan="2">ご連絡先</th>
 						</tr>
 						<tr>
-							<td>氏名<font class="red">*</font></td>
+							<td class="bold">氏名<font class="red">*</font></td>
 							<td>
-								<input type="text" name="lastName" value="姓" class="txt_w400">
-								<input type="text" name="firstName" value="名" class="txt_w400">
+								<input type="text" name="lastName" value="姓" class="txt_w300">
+								<input type="text" name="firstName" value="名" class="txt_w300">
 								<p class="note">（全角・必須）</p>
 							</td>
 						</tr>
 						<tr>
-							<td>会社</td>
+							<td class="bold">会社</td>
 							<td>
 								<input type="text" name="corpName" class="txt_w480">
 								<p class="note">（全角・法人のみ）</p>
 							</td>
 						</tr>
 						<tr>
-							<td>部署</td>
+							<td class="bold">部署</td>
 							<td>
 								<input type="text" name="deptName" class="txt_w480">
 								<p class="note">（全角・法人の方のみ）</p>
 							</td>
 						</tr>
 						<tr>
-							<td>郵便番号<span class="red">*</span></td>
+							<td class="bold">郵便番号<span class="red">*</span></td>
 							<td>
 								<input type="text" name="zipcode" class="txt_w100">
 								<p class="note">（半角数字・必須）</p>
 							</td>
 						</tr>
 						<tr>
-							<td>都道府県</td>
+							<td class="bold">都道府県</td>
 							<td>
 								<select name="province" class="txt_w120">
 									<option value="北海道">北海道</option>
@@ -141,28 +141,28 @@
 							</td>
 						</tr>
 						<tr>
-							<td>市区町村<font color="red">*</font></td>
+							<td class="bold">市区町村<font color="red">*</font></td>
 							<td><input type="text" name="address1" value="" class="txt_w300"><p class="note">（全角・必須）</p></td>
 						</tr>
 						<tr>
-							<td>町名・番地<font color="red">*</font></td>
+							<td class="bold">町名・番地<font color="red">*</font></td>
 							<td><input type="text" name="address2" value="" class="txt_w300" >
 							<p class="note">（全角・必須）</p></td>
 						</tr>
 						<tr>
-							<td>建物名</td>
+							<td class="bold">建物名</td>
 							<td><input type="text" name="address3" class="txt_w300" value=""><p class="note">（全角）</p></td>
 						</tr>
 						<tr>
-							<td>性別<font color="red">*</font></td>
-							<td><input type="radio" name="gender" value="0" checked>
+							<td class="bold">性別<font color="red">*</font></td>
+							<td><input type="radio" name="gender" value="0">
 							男性
 							<input type="radio" name="gender" value="1">
 							女性
 							</td>
 						</tr>
 						<tr>
-							<td>年齢<span class="red">*</span></td>
+							<td class="bold">年齢<span class="red">*</span></td>
 							<td>
 								<select name="age" class="txt_w120">
 									<option value="10">20歳未満</option>
@@ -177,31 +177,32 @@
 							</td>
 						</tr>
 						<tr>
-							<td>電話番号<font color="red">*</font></td>
+							<td class="bold">電話番号<font color="red">*</font></td>
 							<td>
 							<input type="text" name="tel" value="" class="txt_w300">
 							<p class="note">（半角数字・必須）例：03-1234-5678</p></td>
 						</tr>
 						<tr>
-							<td>電子メール<font color="red">*</font></td>
+							<td class="bold">電子メール<font color="red">*</font></td>
 							<td>
 							<input type="text" name="mailaddress" class="txt_w300" value="">
 							<p class="note">（半角・必須）</p></td>
 						</tr>
 					</table>
-					<table class="tb01">
+					<table class="tb01 inquiry-table">
 						<tr>
-							<th colspan="2">ご意見・ご質問をご記入ください<font class="red">*</font></th>
+							<th colspan="2" class="bold">ご意見・ご質問をご記入ください<font class="red">*</font></th>
 						</tr>
 						<tr>
 							<td></td>
 							<td>
 								<textarea class="textarea_w600"></textarea>
+								<p class="note">（必須）</p>
 							</td>
 						</tr>
 					</table>
 					<button type="submit" name="CONFIRM" value="" class="btn-2">確認</button>
-					<button type="submit" name="RESET" value="" class="btn-1">リセット</button>
+					<button type="button" name="RESET" value="" class="btn-1">リセット</button>
 				</form>
 			</section>
 		</article>
@@ -212,7 +213,7 @@
 	<footer id="footer">
 		<div class="wrap">
 			<div class="info">
-				<div class="logo"><a href="/"><img src="../../images/footer_logo.png" width="258" height="53" alt="健康外来サロン" /></a></div>
+				<div class="logo"><a href="../../index.html"><img src="../../images/footer_logo.png" width="258" height="53" alt="健康外来サロン" /></a></div>
 				<p class="address">〒108-0014 東京都港区芝5-13-13 サダカビル3F</p>
 			</div>
 			<nav class="link">
@@ -220,20 +221,21 @@
 					<ul>
 						<li><a href="../../health/index.html">健康外来サロンとは？</a></li>
 						<li><a href="../../map.html">地図</a></li>
+						<li><a href="../../media.html">掲載メディア</a>
 					</ul>
 				</div>
 				<div class="box02">
 					<ul>
-						<li><a href="../../check/index.html">チェックテスト</a></li>
-						<li><a href="../../user/trialreserve/form.html">お問い合わせ</a></li>
+						<li><a href="../../check/index.html">チェックテスト</a></li>\n<li>< a href="partner.html"></a></li>
+						<li><a href="../../user/inquiry/entry.php">お問い合わせ</a></li>
 						<li><a href="../../sitemap.html">サイトマップ</a></li>
 					</ul>
 				</div>
 				<div class="box03">
 					<ul>
-						<li><a href="personal/index.html">サロンメニュー</a></li>
-						<li><a href="intern.html">研修生募集</a></li>
-						<li><a href="privacy.html">プライバシーポリシー</a></li>
+						<li><a href="../../personal/index.html">サロンメニュー</a></li>
+						
+						<li><a href="../../privacy.html">プライバシーポリシー</a></li>
 					</ul>
 				</div>
 			</nav>

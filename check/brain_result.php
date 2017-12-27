@@ -21,12 +21,12 @@
 	<!-- ヘッダー開始 -->
 	<header id="header">
 		<div class="wrap">
-			<h1><a href="/"><img src="../images/logo.png" width="114" height="265" alt="健康外来サロン" /></a></h1>
+			<h1><a href="../index.html"><img src="../images/logo.png" width="114" height="265" alt="健康外来サロン" /></a></h1>
 			<nav id="navi">
 				<ul>
-					<li><a href="../index.html">健康外来サロンとは？</a></li>
+					<li><a href="../health/index.html">健康外来サロンとは？</a></li>
 					<li><a href="../personal/index.html">サロンメニュー</a></li>
-					<li><a class="active" href="../check/index.html">チェックテスト</a></li>
+					<li><a class="active" href="../check/index.html">チェックテスト</a></li>\n<li>< a href="partner.html"></a></li>
 				</ul>
 			</nav>
 			<div class="event_link"><a class="opa" href="#">無風庵</a></div>
@@ -35,48 +35,43 @@
 	<!-- ヘッダー終了 -->
 	<!-- ページタイトル開始 -->
 	<div id="page_title">
-		<h2><img src="../images/page_title_01.png" width="359" height="82" alt="健康外来サロンとは？" /></h2>
+		<!--<h2><img src="../images/page_title_01.png" width="359" height="82" alt="健康外来サロンとは？" /></h2>-->
 	</div>
 	<!-- ページタイトル終了 -->
 	<!-- コンテンツ開始 -->
-	<div id="content" class="clearfix">
+	<div id="content">
 		<!-- メインコンテンツ開始 -->
-		<article  class="check-main">
+		<article id="main" class="post-main">
 			<section class="post">
 				<header class="title">
 					<h2> 脳力チェックテスト結果</h2>
 				</header>
 				<div class="desc">
-					<div class="link02"><a class="opa" href="#">脳専門外来</a></div>
-				</div>
-				<div class="check-result-table">
-					<table class="tb01" >
+					<h3 class="tit01">あなたの脳力チェックテストの結果は：<span class="font24 red">0</span>点です。</h3>
+					<table class="tb01 checkresult-table">
 						<tr>
-							<th colspan="2">あなたの脳力チェックテストの結果は:0点です。</th>
-						</tr>
-						<tr>
-							<th colspan="2" class="red">
-								<p>平均的な脳力です。</p>
-								<p>五感療法を実施することで元気プログラムにスイッチが入ります。</p>
+							<th colspan="2">
+								<p class="red">平均的な脳力です。</p>
+								<p class="red">五感療法を実施することで元気プログラムにスイッチが入ります。</p>
 							</th>
 						</tr>
 						<tr>
-							<td>21点 〜 30点 ：</td>
+							<td class="bold">21点 〜 30点 </td>
 							<td>脳力は最高の元気プログラムで充実</td>
 						</tr>
 						<tr>
-							<td>11点 〜 20点 ：</td>
+							<td class="bold">11点 〜 20点 </td>
 							<td>元気プログラムの内容を充実すればさらにレベルアップします。</td>
 						</tr>
 						<tr>
-							<td>0点 〜 10点  ： </td>
+							<td class="bold">0点 〜 10点 </td>
 							<td>
 								<p>平均的な脳力です。</p>
 								<p>脳力は最高の元気プログラムで充実</p>
 							</td>
 						</tr>
 						<tr>
-							<td>-10点 〜 -1点 ： </td>
+							<td class="bold">-10点 〜 -1点 </td>
 							<td>
 								<p>平均の脳力からややネガティブになっています。</p>
 								<p>快食と五感療法を早く実施してください。</p>
@@ -84,50 +79,45 @@
 							</td>
 						</tr>
 						<tr>
-							<td>-20点 〜 -11点 ：</td>
+							<td class="bold">-20点 〜 -11点 </td>
 							<td>
 								<p>脳力は疲弊プログラムになっています。</p>
 								<p>自分だけでは改善しなくなっているので、健康外来の受診をお勧めします。</p>
 							</td>
 						</tr>
 						<tr>
-							<td>-30点 〜 -21点 ： </td>
+							<td class="bold">-30点 〜 -21点  </td>
 							<td>
 								<p>重度の疲弊脳で脳力が失われています。</p>
 								<p>健康外来を受診し薬物療法の併用も必要かもしれません。</p>
 							</td>
 						</tr>
 					</table>
-				</div>
-				<div class="check-result-table2">
-					<table class="tb01">
+				
+					<h3 class="tit01">脳健幸度チェック結果：<span class="font24 red">30</span> 点<p>( 0点チェック数：<span class="font24 red">0</span>個 )</p></h3>
+					<table class="tb01 checkresult-table">
+						
 						<tr>
 							<th colspan="2">
-								<p>脳健幸度チェック結果： 30 点</p>
-								<p>( 0点チェック数： 0 つ )</p>
+								<span class="bold red">26点〜30点 & 「0」 なし</span>
 							</th>
 						</tr>
 						<tr>
-							<th colspan="2" class="red">
-								26点〜30点 & 「0」 なし
-							</th>
-						</tr>
-						<tr>
-							<td>26点 〜 30点 & 「0」 なし： </td>
+							<td class="bold">26点 〜 30点 <br/>& 「0」 なし </td>
 							<td>
 								<p>あなたは・・・「イキイキ健幸脳！」。</p>
 								<p>この調子で、日々の健幸を大切に！</p>
 							</td>
 						</tr>
 						<tr>
-							<td>17点 〜 25点または 「0」 1〜2つ ：  </td>
+							<td class="bold">17点 〜 25点<br/>または 「0」 1〜2個   </td>
 							<td>
 								<p>あなたは・・・「ほぼ健幸脳！」。 </p>
 								<p>自分自身と向き合う小さな時間をもって、わずかな気がかり・ストレス・不調を軽やかに！</p>
 							</td>
 						</tr>
 						<tr>
-							<td>10点 〜 16点または 「0」 3〜4つ ： </td>
+							<td class="bold">10点 〜 16点<br/>または 「0」 3〜4個  </td>
 							<td>
 								<p>あなたは・・・「疲弊プログラム一歩手前」。</p>
 								<p>気づかないうちに心と身体が無理をしているようです。</p>
@@ -135,7 +125,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td>0点 〜 9点または 「0」 5つ以上 ：  </td>
+							<td class="bold">0点 〜 9点<br/>または 「0」 5個以上   </td>
 							<td>
 								<p>あなたは・・・「疲弊プログラムの可能性あり」。 </p>
 								<p>日々かなり頑張ってお過ごしのようですね。 </p>
@@ -143,28 +133,27 @@
 							</td>
 						</tr>
 					</table>
-					
-					<table class="tb01">
+					<h3 class="tit01"><p>脳疲弊度チェック結果：<span class="red font24">30</span>点</p></h3>
+					<table class="tb01 checkresult-table">
 						<tr>
 							<th colspan="2">
-								<p>脳疲弊度チェック結果： 30 点</p>
-								<p>重度疲弊</p>
+								<p><span class="red">重度疲弊</span></p>
 							</th>
 						</tr>
 						<tr>
-							<td>21点 〜 30点 ： </td>
+							<td class="bold">21点 〜 30点  </td>
 							<td>
 								<p>重度疲弊</p>
 							</td>
 						</tr>
 						<tr>
-							<td>11点 〜 20点 ： </td>
+							<td class="bold">11点 〜 20点  </td>
 							<td>
 								<p>中等度疲弊</p>
 							</td>
 						</tr>
 						<tr>
-							<td>0点 〜 10点 ：</td>
+							<td class="bold">0点 〜 10点 </td>
 							<td>
 								<p>軽度疲弊</p>
 							</td>
@@ -172,13 +161,11 @@
 						<tfoot>
 							<tr>
 								<td colspan="2">
-									<p>中等度疲弊以上の人は要注意。</p>
-									<p>脳専門外来受診を勧めます。</p>
+									<p class="note">中等度疲弊以上の人は要注意。脳専門外来受診を勧めます。</p>
 								</td>
 							</tr>
 						</tfoot>
 					</table>
-					
 				</div>
 			</section>
 		</article>
@@ -188,28 +175,29 @@
 	<footer id="footer">
 		<div class="wrap">
 			<div class="info">
-				<div class="logo"><a href="/"><img src="../images/footer_logo.png" width="258" height="53" alt="健康外来サロン" /></a></div>
+				<div class="logo"><a href="../index.html"><img src="../images/footer_logo.png" width="258" height="53" alt="健康外来サロン" /></a></div>
 				<p class="address">〒108-0014 東京都港区芝5-13-13 サダカビル3F</p>
 			</div>
 			<nav class="link">
 				<div class="box01">
 					<ul>
-						<li><a href="health/index.html">健康外来サロンとは？</a></li>
-						<li><a href="map.html">地図</a></li>
+						<li><a href="../health/index.html">健康外来サロンとは？</a></li>
+						<li><a href="../map.html">地図</a></li>
+						<li><a href="../media.html">掲載メディア</a></li>
 					</ul>
 				</div>
 				<div class="box02">
 					<ul>
-						<li><a href="check/index.html">チェックテスト</a></li>
-						<li><a href="user/trialreserve/form.html">お問い合わせ</a></li>
-						<li><a href="sitemap.html">サイトマップ</a></li>
+						<li><a href="../check/index.html">チェックテスト</a></li>
+						<li><a href="../parthner.html">関連の企業・団体</a></li>
+						<li><a href="../sitemap.html">サイトマップ</a></li>
 					</ul>
 				</div>
 				<div class="box03">
 					<ul>
-						<li><a href="personal/index.html">サロンメニュー</a></li>
-						<li><a href="intern.html">研修生募集</a></li>
-						<li><a href="privacy.html">プライバシーポリシー</a></li>
+						<li><a href="../personal/index.html">サロンメニュー</a></li>
+						
+						<li><a href="../privacy.html">プライバシーポリシー</a></li>
 					</ul>
 				</div>
 			</nav>
