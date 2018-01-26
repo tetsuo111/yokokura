@@ -8,16 +8,12 @@
 <meta name="keywords" content="健康,更年期障害,肥満,生活習慣病,ストレス,疲労,うつ,子宮癌,乳がん,自律神経失調症,月経困難症,子宮内膜症,生理不順,排卵障害,卵巣機能不全,避妊,不妊症,女性の健康,脳疲労,五感療法,アロマセラピー,アートセラピー,サウンドセラピー,快食,快便,快眠,メンタル,健康外来,禁煙">
 <title>掲載メディア</title>
 
-<link rel="stylesheet" href="css/import.css" />
+<link rel="stylesheet" href="css/common.css" />
+<link rel="stylesheet" href="css/style.css" />
 <script src="js/jquery-1.11.0.min.js"></script>
 <script src="js/common.js"></script>
-<script type="text/javascript">
-	function openFile(file, width, height) {
-		window.open('./popup_media/' + file, 'newwin', 'width=' + width + ', height=' + height + ', toolbar=no, status=no, menubar=no, resizable=yes, scrollbars=yes');
-	}
-</script>
 <!--[if lt IE 9]>
-<script src="../jshtml5.js"></script>
+<script src="js/html5.js"></script>
 <![endif]-->
 </head>
 <body>
@@ -25,27 +21,37 @@
 	<!-- ヘッダー開始 -->
 	<header id="header">
 		<div class="wrap">
-			<h1><a href="index.html"><img src="images/logo.png" width="114" height="265" alt="健康外来サロン" /></a></h1>
+			<h1 class="home"><a href="index.html"><img src="images/logo.png" width="114" height="265" alt="健康外来サロン" /></a></h1>
 			<nav id="navi">
 				<ul>
-					<li><a href="health/index.html">健康外来サロンとは？</a></li>
-					<li><a href="personal/index.html">サロンメニュー</a></li>
-					<li><a href="check/index.html">チェックテスト</a></li>
+					<li>
+						<a href="health/index.html">健康外来サロンとは？</a>
+					</li>
+					
+					<li>
+						<a href="check/index.html">チェックテスト</a>
+					</li>
+					<li>
+						<a href="mufuan.html">無風庵</a>
+					</li>
+					<li>
+						<a href="personal/index.html">サロンメニュー</a>
+					</li>
 				</ul>
 			</nav>
-			<div class="event_link"><a class="opa" href="#">無風庵</a></div>
+			<div class="header-btn">
+				<a href="map.html" class="opa btn btn-3">アクセスマップ</a>
+			</div>
 		</div>
 	</header>
 	<!-- ヘッダー終了 -->
 	<!-- ページタイトル開始 -->
-	<div id="page_title">
-		<!--<h2><img src="images/page_title_01.png" width="359" height="82" alt="健康外来サロンとは？" /></h2>-->
-	</div>
+	<div id="page_title"></div>
 	<!-- ページタイトル終了 -->
 	<!-- コンテンツ開始 -->
 	<div id="content">
 		<!-- メインコンテンツ開始 -->
-		<article class="main" class="post-main">
+		<article id="main" class="post-main">
 			<section class="post">
 				<header class="title">
 					<h2>掲載メディア</h2>
@@ -53,12 +59,12 @@
 				<div class="desc">
 					<div class="media">
 						<h3 class="tit02 font24">2017年</h3>
-						<table class="tb02" >
+						<table class="tb02 txt_left">
 							<tr>
 								<th>2017年9月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media89.html', 950, 700);">集英社「Marisol」</a>
+										<a class="open" href="popup_media/media89.html">集英社「Marisol」</a>
 									</div>
 								</td>
 								<td>『女だからこその、この“ゆらぎ”、 どうすれば乗り越えられますか？』掲載</td>
@@ -67,7 +73,7 @@
 								<th>2017年5月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media88.html', 950, 700);">ＢＡＢジャパン「セラピスト」</a>
+										<a class="open" href="popup_media/media88.html">ＢＡＢジャパン「セラピスト」</a>
 									</div>
 								</td>
 								<td>『五感を開く、第六感を磨く。 脳セラピーで、治る！　 軽井沢のウェルネス環境を、ツーリズムに！！』掲載</td>
@@ -76,7 +82,7 @@
 								<th>2017年2月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media87.html', 950, 700);">からだにいこと社「からだにいいこと」</a>
+										<a class="open" href="popup_media/media86.html">からだにいこと社「からだにいいこと」</a>
 									</div>
 								</td>
 								<td>
@@ -87,7 +93,7 @@
 								<th>2017年2月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media86.html', 950, 750);">ＢＡＢジャパン「美しくなる食事療法」</a>
+										<a class="open" href="popup_media/media87.html">ＢＡＢジャパン「美しくなる食事療法」</a>
 									</div>
 								</td>
 								<td>『体型を決める脳の仕組み』掲載</td>
@@ -96,12 +102,12 @@
 					</div>
 					<div class="media">
 						<h3 class="tit02 font24">2016年</h3>
-						<table class="tb02" >
+						<table class="tb02 txt_left">
 							<tr>
 								<th>2016年7月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201607.html', 950, 750);">フレグランスジャーナル社「aromatopia」</a>
+										<a class="open" href="popup_media/media201607.html">フレグランスジャーナル社「aromatopia」</a>
 									</div>
 								</td>
 								<td>『五感療法』、『疲弊脳と健幸脳』掲載</td>
@@ -110,12 +116,12 @@
 					</div>
 					<div class="media">
 						<h3 class="tit02 font24">2015年</h3>
-						<table class="tb02" >
+						<table class="tb02 txt_left">
 							<tr>
 								<th>2015年10月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201510.html', 650, 670);">小学館「美的」</a>
+										<a class="open" href="popup_media/media201510.html">小学館「美的」</a>
 									</div>
 								</td>
 								<td>『美人ほど「かかりつけ医」を知っている』掲載</td>
@@ -123,19 +129,19 @@
 							<tr>
 								<th>2015年6月</th>
 								<td>
-									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201506.html', 750, 670);">ラジオNIKKEI「健康ネットワーク」</a>
+									<div class="link01 mincho font15">
+										ラジオNIKKEI「健康ネットワーク」
 									</div>
 								</td>
 								<td>出演
-									<div class="link01"><a>くわしくはこちら</a></div>
+									<div class="link01"><a href="http://www.radionikkei.jp/kenkounet/date/20150601/">くわしくはこちら</a></div>
 								</td>
 							</tr>
 							<tr>
 								<th>2015年3月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201503.html', 750, 670);">ユーリーグ「いきいき」</a>
+										<a class="open" href="popup_media/media201503.html">ユーリーグ「いきいき」</a>
 									</div>
 								</td>
 								<td>『我慢しないから始める大人のおやつの食べ方』掲載</td>
@@ -144,12 +150,12 @@
 					</div>
 					<div class="media">
 						<h3 class="tit02 font24"> 2014年</h3>
-						<table class="tb02" >
+						<table class="tb02 txt_left">
 							<tr>
 								<th>2014年11月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201411.html', 700, 670);">青春出版社「ビッグトゥモロウ」</a>
+										<a class="open" href="popup_media/media201411.html">青春出版社「ビッグトゥモロウ」</a>
 									</div>
 								</td>
 								<td>『脳に効く習慣、より疲れさせる習慣』掲載</td>
@@ -159,13 +165,13 @@
 								<td class="mincho font15">
 									9月9日 ダイエットフォーラム2014
 								</td>
-								<td>『脳科学から見た健康＆ダイエット』開催しました。<div class="link01"><a>【詳細】</a></div></td>
+								<td>『脳科学から見た健康＆ダイエット』開催しました。<div class="link01"><a href="http://www.kenkogairai.com/popup_media/images/content.pdf">【詳細】</a></div></td>
 							</tr>
 							<tr>
 								<th>2014年8月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201408.html', 700, 670);">KADOKAWA「レタスクラブ」</a>
+										<a class="open" href="popup_media/media201408.html">KADOKAWA「レタスクラブ」</a>
 									</div>
 								</td>
 								<td>『やせ脳生活』掲載</td>
@@ -174,7 +180,7 @@
 								<th>2014年6月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201406.html', 950, 670);">世界文化社「GOLD」</a>
+										<a class="open" href="popup_media/media201406.html">世界文化社「GOLD」</a>
 									</div>
 								</td>
 								<td>『更年期障害を防ぐ健幸脳のススメ』掲載</td>
@@ -183,7 +189,7 @@
 								<th>2014年5月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201405.html', 950, 670);">文化出版局「ミセス」</a>
+										<a class="open" href="popup_media/media201405.html">文化出版局「ミセス」</a>
 									</div>
 								</td>
 								<td>『その不調は更年期障害かもしれません』掲載</td>
@@ -192,7 +198,7 @@
 								<th>2014年3月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201403.html', 950, 670);">プレジデント社「PRESIDENT」</a>
+										<a class="open" href="popup_media/media201403.html">プレジデント社「PRESIDENT」</a>
 									</div>
 								</td>
 								<td>『さらば疲労とストレス ヘルシーな働き方』掲載</td>
@@ -201,10 +207,11 @@
 					</div>
 					<div class="media">
 						<h3 class="tit02 font24"> 2013年</h3>
-						<table class="tb02" >
+						<table class="tb02 txt_left">
 							<tr>
 								<th>2013年12月</th>
-								<td colspan="2" class="mincho font15">12月25日17:00〜テレビ朝日系列「スーパーＪチャンネル」にて「正月太りの食べ方」放送</td>
+								<td class="mincho font15">12月25日17:00〜テレビ朝日系列「スーパーＪチャンネル」にて「正月太りの食べ方」放送</td>
+								<td></td>
 							</tr>
 							<tr>
 								<th>2013年12月</th>
@@ -217,7 +224,7 @@
 								<th>2013年11月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201311.html', 700, 670);">青春出版社「ビッグトゥモロウ」</a>
+										<a class="open" href="popup_media/media201311.html">青春出版社「ビッグトゥモロウ」</a>
 									</div>
 								</td>
 								<td>『カラダのオジサン化を食い止める若返り習慣』 掲載</td>
@@ -240,7 +247,7 @@
 								<th>2013年5月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201305.html', 700, 670);">からだにいこと社「からだにいいこと」</a>
+										<a class="open" href="popup_media/media201305.html">からだにいこと社「からだにいいこと」</a>
 									</div>
 								</td>
 								<td>『このダイエットはキモチいい』 掲載</td>
@@ -263,7 +270,7 @@
 								<th>2013年2月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201302.html', 920, 630);">朝日新聞出版「AERA」</a>
+										<a class="open" href="popup_media/media201302.html">朝日新聞出版「AERA」</a>
 									</div>
 								</td>
 								<td>『その「痛み」誤解だらけ』 掲載</td>
@@ -271,9 +278,10 @@
 							<tr>
 								<th>2013年2月</th>
 								<td class="mincho font15">
-									Web NEWSに掲載								</td>
+									Web NEWSに掲載
+								</td>
 								<td>
-									<p>マイライフ手帳＠ニュース</p>
+									<p><a href="http://www.mylifenote.net/014/130207_16214.html">マイライフ手帳＠ニュース</a></p>
 									<p>Livedoor NEWS</p>
 									<p>BIGLOBE Kireistyle</p>
 								</td>
@@ -289,7 +297,7 @@
 					</div>
 					<div class="media">
 						<h3 class="tit02 font24">2012年</h3>
-						<table class="tb02" >
+						<table class="tb02 txt_left">
 							<tr>
 								<th>2012年11月</th>
 								<td class="mincho font15">
@@ -299,15 +307,16 @@
 							</tr>
 							<tr>
 								<th>2012年11月</th>
-								<td colspan="2" class="mincho font15">
+								<td class="mincho font15">
 									テレビ東京系列「主治医が見つかる診療所」出演
 								</td>
+								<td></td>
 							</tr>
 							<tr>
 								<th>2012年9月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201209.html', 700, 670);">日経BP社「日経ヘルス プルミエ」</a>
+										<a class="open" href="popup_media/media201209.html">日経BP社「日経ヘルス プルミエ」</a>
 									</div>
 								</td>
 								<td>『ウワサの成分の実力（プラセンタ注射）』掲載</td>
@@ -323,7 +332,7 @@
 								<th>2012年6月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201206.html', 950, 670);">日経BP社「日経ヘルス プルミエ」</a>
+										<a class="open" href="popup_media/media201206.html">日経BP社「日経ヘルス プルミエ」</a>
 									</div>
 								</td>
 								<td>『50歳以降を幸せに過ごす夫のとの付き合い方』掲載</td>
@@ -332,7 +341,7 @@
 								<th>2012年5月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201205_2.html', 920, 650);">新潮社「週刊新潮」</a>
+										<a class="open" href="popup_media/media201205_2.html">新潮社「週刊新潮」</a>
 									</div>
 								</td>
 								<td>『くすんだ脳の磨き方』掲載</td>
@@ -341,7 +350,7 @@
 								<th>2012年5月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201205_1.html', 950, 650);">からだにいいこと社「からだにいいこと」</a>
+										<a class="open" href="popup_media/media201205_1.html">からだにいいこと社「からだにいいこと」</a>
 									</div>
 								</td>
 								<td>『ハッピースウィッチを入れるカレンダー』掲載</td>
@@ -350,7 +359,7 @@
 								<th>2012年4月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201204.html', 650, 670);">日経BP社「日経ヘルス」</a>
+										<a class="open" href="popup_media/media201204.html">「日経ヘルス」</a>
 									</div>
 								</td>
 								<td>『ダイエットのお悩みすべて解決』掲載</td>
@@ -359,7 +368,7 @@
 								<th>2012年2月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201202_2.html', 570, 670);"> 2月14日（火）日本経済新聞</a>
+										<a class="open" href="popup_media/media201202_2.html"> 2月14日（火）日本経済新聞</a>
 									</div>
 								</td>
 								<td>らいふプラス『今こそ心身鍛えよう』掲載</td>
@@ -368,7 +377,7 @@
 								<th>2012年2月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201202_1.html', 350, 600);">1月25日（水）読売新聞</a>
+										<a class="open" href="popup_media/media201202_1.html">1月25日（水）読売新聞</a>
 									</div>
 								</td>
 								<td>『ハッピー撮影会』掲載</td>
@@ -377,7 +386,7 @@
 								<th>2012年1月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201201_3.html', 650, 670);">マガジンハウス「anan」</a>
+										<a class="open" href="popup_media/media201201_3.html">マガジンハウス「anan」</a>
 									</div>
 								</td>
 								<td>『正月太りを解消したい緊急ダイエット』掲載</td>
@@ -386,7 +395,7 @@
 								<th>2012年1月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201201_2.html', 920, 650);">日経BP社「日経WOMAN」</a>
+										<a class="open" href="popup_media/media201201_2.html">「日経WOMAN」</a>
 									</div>
 								</td>
 								<td>『健康ダイエットの秘訣を教えます』掲載</td>
@@ -395,7 +404,7 @@
 								<th>2012年1月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201201_1.html', 600, 650);">毎日新聞出版「サンデー毎日」</a>
+										<a class="open" href="popup_media/media201201_1.html">毎日新聞出版「サンデー毎日」</a>
 									</div>
 								</td>
 								<td>『快食療法で疲弊脳からストレスがみるみる消える』掲載</td>
@@ -404,12 +413,12 @@
 					</div>
 					<div class="media">
 						<h3 class="tit02 font24">2011年</h3>
-						<table class="tb02" >
+						<table class="tb02 txt_left">
 							<tr>
 								<th>2011年12月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201112_2.html', 850, 670);">日経BP社「日経ヘルス プルミエ」</a>
+										<a class="open" href="popup_media/media201112_2.html">日経BP社「日経ヘルス プルミエ」</a>
 									</div>
 								</td>
 								<td>『ホルモン力を高める』掲載</td>
@@ -418,7 +427,7 @@
 								<th>2011年12月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201112_1.html', 870, 550);">主婦の友社「ホルモン調整で病気が防げる治せる知恵とコツ」</a>
+										<a class="open" href="popup_media/media201112_1.html">主婦の友社「ホルモン調整で病気が防げる治せる知恵とコツ」</a>
 									</div>
 								</td>
 								<td>『食べ放題ダイエット』掲載</td>
@@ -427,7 +436,7 @@
 								<th>2011年11月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201111_3.html', 650, 600);">日本衛生検査所協会「各界著名人が語る 健康がくれるもの」</a>
+										<a class="open" href="popup_media/media201111_3.html">日本衛生検査所協会「各界著名人が語る 健康がくれるもの」</a>
 									</div>
 								</td>
 								<td>インタビュー記事掲載</td>
@@ -436,7 +445,7 @@
 								<th>2011年11月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201111_2.html', 600, 500);">11月21日 読売新聞</a>
+										<a class="open" href="popup_media/media201111_2.html">11月21日 読売新聞</a>
 									</div>
 								</td>
 								<td>『心と体が軽くなる本物のダイエット』の広告掲載</td>
@@ -445,7 +454,7 @@
 								<th>2011年11月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201111_1.html', 550, 500);">実業之日本社「心と体が軽くなる本物のダイエット」</a>
+										<a class="open" href="popup_media/media201111_1.html">実業之日本社「心と体が軽くなる本物のダイエット」</a>
 									</div>
 								</td>
 								<td></td>
@@ -454,7 +463,7 @@
 								<th>2011年10月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201110_2.html', 620, 670);">日経BP社「日経トレンディ」</a>
+										<a class="open" href="popup_media/media201110_2.html">日経BP社「日経トレンディ」</a>
 									</div>
 								</td>
 								<td>『生活習慣を見直そう』掲載</td>
@@ -463,7 +472,7 @@
 								<th>2011年10月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201110_1.html', 870, 600);">マキノ出版「壮快」</a>
+										<a class="open" href="popup_media/media201110_1.html">マキノ出版「壮快」</a>
 									</div>
 								</td>
 								<td>『プチ断食』掲載</td>
@@ -475,8 +484,8 @@
 								</td>
 								<td>
 									<div class="link01">
-										<a>『過食や肥満は正常な証拠!? ストレスに負けない“健幸脳”のススメ！』</a>
-										<br><a>『食べたい時に食べればいい！ 脳ストレスを解消する実践型 美脳メソッド』</a>
+										<a href="https://www.mylohas.net/2011/09/024440magazine-2340.html">『過食や肥満は正常な証拠!? ストレスに負けない“健幸脳”のススメ！』</a>
+										<br/><a href="https://www.mylohas.net/2011/09/024441magazine-2341.html">『食べたい時に食べればいい！ 脳ストレスを解消する実践型 美脳メソッド』</a>
 									</div>
 								</td>
 							</tr>
@@ -484,7 +493,7 @@
 								<th>2011年9月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201109.html', 700, 670);">講談社「セオリー」</a>
+										<a class="open" href="popup_media/media201109.html">講談社「セオリー」</a>
 									</div>
 								</td>
 								<td>『こころと体の新・健康法 vol.4』掲載</td>
@@ -493,7 +502,7 @@
 								<th>2011年7月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201107.html', 750, 670);">ギャップジャパン「カウンセリングで見極める信頼のクリニックと出会える本」</a>
+										<a class="open" href="popup_media/media201107.html">ギャップジャパン「カウンセリングで見極める信頼のクリニックと出会える本」</a>
 									</div>
 								</td>
 								<td>横倉クリニックの記事掲載</td>
@@ -502,7 +511,7 @@
 								<th>2011年6月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201106_3.html', 650, 670);">日経BP社「日経ヘルス for MEN」</a>
+										<a class="open" href="popup_media/media201106_3.html">日経BP社「日経ヘルス for MEN」</a>
 									</div>
 								</td>
 								<td>『その不調やメタボは「有害金属」が原因かも』 掲載</td>
@@ -511,7 +520,7 @@
 								<th>2011年6月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201106_2.html', 600, 650);">三笠書房「病気が治る脳の健康法」</a>
+										<a class="open" href="popup_media/media201106_2.html">三笠書房「病気が治る脳の健康法」</a>
 									</div>
 								</td>
 								<td>中国語翻訳本 台湾にて出版</td>
@@ -520,7 +529,7 @@
 								<th>2011年6月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201106_1.html', 600, 670);">朝日新聞出版「AERA」</a>
+										<a class="open" href="popup_media/media201106_1.html">朝日新聞出版「AERA」</a>
 									</div>
 								</td>
 								<td>『梅雨時から「熱中症地獄」』掲載</td>
@@ -529,7 +538,7 @@
 								<th>2011年5月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201105.html', 600, 650);">主婦の友社「ゆうゆう」</a>
+										<a class="open" href="popup_media/media201105.html">主婦の友社「ゆうゆう」</a>
 									</div>
 								</td>
 								<td>『「脳」を刺激する老けない習慣・・・』 掲載 </td>
@@ -538,7 +547,7 @@
 								<th>2011年4月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201104_2.html', 890, 550);">朝日新聞出版「AERA」</a>
+										<a class="open" href="popup_media/media201104_2.html">朝日新聞出版「AERA」</a>
 									</div>
 								</td>
 								<td>『東日本大震災１００人の証言』 掲載 </td>
@@ -547,7 +556,7 @@
 								<th>2011年4月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201104_1.html', 630, 570);">主婦の友社「健康」</a>
+										<a class="open" href="popup_media/media201104_1.html">主婦の友社「健康」</a>
 									</div>
 								</td>
 								<td>『梅雨時から「熱中症地獄」』掲載 </td>
@@ -556,7 +565,7 @@
 								<th>2011年3月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201103_3.html', 840, 570);">朝日新聞出版「AERA」</a>
+										<a class="open" href="popup_media/media201103_3.html">朝日新聞出版「AERA」</a>
 									</div>
 								</td>
 								<td>『テレビさせられ体験』 掲載</td>
@@ -565,7 +574,7 @@
 								<th>2011年3月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201103_2.html', 600, 570);">マガジンハウス「クロワッサンプレミアム」</a>
+										<a class="open" href="popup_media/media201103_2.html">マガジンハウス「クロワッサンプレミアム」</a>
 									</div>
 								</td>
 								<td>『「脳の疲れ」かもしれません。』 掲載 </td>
@@ -574,7 +583,7 @@
 								<th>2011年3月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201103_1.html', 780, 570);">講談社「週刊現代」</a>
+										<a class="open" href="popup_media/media201103_1.html">講談社「週刊現代」</a>
 									</div>
 								</td>
 								<td>『本邦初公開「名医のダイエット」』 掲載 </td>
@@ -583,7 +592,7 @@
 								<th>2011年2月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201102.html', 500, 570);">実業之日本社「ボディプラス」</a>
+										<a class="open" href="popup_media/media201102.html">実業之日本社「ボディプラス」</a>
 									</div>
 								</td>
 								<td>『ストレスケアが肝心』 掲載</td>
@@ -592,7 +601,7 @@
 								<th>2011年1月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201101_2.html', 520, 570);">マガジンハウス「クロワッサンプレミアム」</a>
+										<a class="open" href="popup_media/media201101_2.html">マガジンハウス「クロワッサンプレミアム」</a>
 									</div>
 								</td>
 								<td>『常に疲れがとれない』 掲載 </td>
@@ -608,7 +617,7 @@
 								<th>2011年1月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201101_1.html', 520, 550);">1月8日 「サンケイスポーツ」</a>
+										<a class="open" href="popup_media/media201101_1.html">1月8日 「サンケイスポーツ」</a>
 									</div>
 								</td>
 								<td>『脳を元気にして、メタボに勝つ』 掲載</td>
@@ -617,12 +626,12 @@
 					</div>
 					<div class="media">
 						<h3 class="tit02 font24">2010年</h3>
-						<table class="tb02" >
+						<table class="tb02 txt_left">
 							<tr>
 								<th>2010年9月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201009_2.html', 800, 550);">日経BP社「日経ヘルス for MEN」</a>
+										<a class="open" href="popup_media/media201009_2.html">日経BP社「日経ヘルス for MEN」</a>
 									</div>
 								</td>
 								<td>『ぐうたらほどよくやせる秋』 掲載</td>
@@ -631,7 +640,7 @@
 								<th>2010年9月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201009_1.html', 800, 550);">婦人画報社「25ans ヴァンサンカン」</a>
+										<a class="open" href="popup_media/media201009_1.html">婦人画報社「25ans ヴァンサンカン」</a>
 									</div>
 								</td>
 								<td>『愛があれば歳を取らない』 掲載</td>
@@ -640,7 +649,7 @@
 								<th>2010年8月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201008_2.html', 600, 530);">文化出版局「ミセス」</a>
+										<a class="open" href="popup_media/media201008_2.html">文化出版局「ミセス」</a>
 									</div>
 								</td>
 								<td>『ヘルスカフェ（五感を養い、健康ダイエット）』 掲載</td>
@@ -649,10 +658,10 @@
 								<th>2010年8月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201008_1.html', 530, 530);">フレグランスジャーナル社「creabeaux（クレアボー）」」</a>
+										<a class="open" href="popup_media/media201008_1.html">フレグランスジャーナル社「creabeaux（クレアボー）」</a>
 									</div>
 								</td>
-								<td>『トータルヘルスプロモーションの本質』 掲載</td>
+								<td>『「ヒトの健康」から「人の健幸」への本質』 掲載</td>
 							</tr>
 							<tr>
 								<th>2010年6月</th>
@@ -665,7 +674,7 @@
 								<th>2010年5月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201005.html', 340, 300);">三笠書房「病気が治る「脳」の健康法」</a>
+										<a class="open" href="popup_media/media201005.html">三笠書房「病気が治る「脳」の健康法」</a>
 									</div>
 								</td>
 								<td>横倉院長、三笠書房より出版 </td>
@@ -688,7 +697,7 @@
 								<th>2010年4月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media201004.html', 500, 570);">中央公論社「婦人公論」</a>
+										<a class="open" href="popup_media/media201004.html">中央公論社「婦人公論」</a>
 									</div>
 								</td>
 								<td>『五感を鍛えて健幸脳になろう』 掲載</td>
@@ -697,12 +706,12 @@
 					</div>
 					<div class="media">
 						<h3 class="tit02 font24">2009年</h3>
-						<table class="tb02" >
+						<table class="tb02 txt_left">
 							<tr>
 								<th>2009年12月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200912_3.html', 780, 570);">講談社「何歳からでも美しくなる生活」創刊号</a>
+										<a class="open" href="popup_media/media200912_3.html">講談社「何歳からでも美しくなる生活」創刊号</a>
 									</div>
 								</td>
 								<td>『キモチのアンチエイジング』 掲載</td>
@@ -718,7 +727,7 @@
 								<th>2009年12月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200912_2.html', 830, 570);">主婦の友社「ゆうゆう」</a>
+										<a class="open" href="popup_media/media200912_2.html">主婦の友社「ゆうゆう」</a>
 									</div>
 								</td>
 								<td>『食と心の若さ』 掲載</td>
@@ -727,7 +736,7 @@
 								<th>2009年12月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200912_1.html', 830, 550);">主婦の友社「健康」</a>
+										<a class="open" href="popup_media/media200912_1.html">主婦の友社「健康」</a>
 									</div>
 								</td>
 								<td>『血糖値を下げるコツ』 掲載</td>
@@ -736,7 +745,7 @@
 								<th>2009年11月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200911_2.html', 830, 610);">朝日新聞出版「AERA」</a>
+										<a class="open" href="popup_media/media200911_2.html">朝日新聞出版「AERA」</a>
 									</div>
 								</td>
 								<td>父親世代『荷おろしうつ』 掲載</td>
@@ -745,7 +754,7 @@
 								<th>2009年11月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200911_1.html', 830, 570);">日本衛生検査所協会機関紙「ラボ」</a>
+										<a class="open" href="popup_media/media200911_1.html">日本衛生検査所協会機関紙「ラボ」</a>
 									</div>
 								</td>
 								<td>『五感の目覚めで脳にアプローチ』 掲載</td>
@@ -754,13 +763,13 @@
 								<th>2009年10月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200910.html', 830, 570);">集英社「nonno」</a>
+										<a class="open" href="popup_media/media200910.html">集英社「nonno」</a>
 									</div>
 								</td>
 								<td>『脳からやせる』 掲載</td>
 							</tr>
 							<tr>
-								<th>2012年6月</th>
+								<th>2009年6月</th>
 								<td class="mincho font15">
 									青春出版社「ビッグトゥモロウ」
 								</td>
@@ -770,7 +779,7 @@
 								<th>2009年5月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200905.html', 830, 570);">主婦の友社「ゆうゆう」</a>
+										<a class="open" href="popup_media/media200905.html">主婦の友社「ゆうゆう」</a>
 									</div>
 								</td>
 								<td>『脳が喜ぶ暮らし方、生き方』 掲載</td>
@@ -779,7 +788,7 @@
 								<th>2009年4月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200904_2.html', 830, 570);">PHP研究所「運を強くする生活術」</a>
+										<a class="open" href="popup_media/media200904_2.html">PHP研究所「運を強くする生活術」</a>
 									</div>
 								</td>
 								<td>『幸せ脳をつくる ハッピー習慣』 掲載</td>
@@ -788,7 +797,7 @@
 								<th>2009年4月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200904_1.html', 830, 570);">マガジンハウス「anan」</a>
+										<a class="open" href="popup_media/media200904_1.html">マガジンハウス「anan」</a>
 									</div>
 								</td>
 								<td>『狙い撃ちダイエット』 掲載</td>
@@ -797,7 +806,7 @@
 								<th>2009年3月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200903_4.html', 730, 520);">日経BP社「日経ヘルス」</a>
+										<a class="open" href="popup_media/media200903_4.html">日経BP社「日経ヘルス」</a>
 									</div>
 								</td>
 								<td>『我慢しないダイエット』掲載</td>
@@ -806,7 +815,7 @@
 								<th>2009年3月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200903_3.html', 800, 570);"> 世界文化社「MISS」</a>
+										<a class="open" href="popup_media/media200903_3.html"> 世界文化社「MISS」</a>
 									</div>
 								</td>
 								<td>『うつと対人ストレスから脱出！あなたも幸せ顔に！』掲載</td>
@@ -815,7 +824,7 @@
 								<th>2009年3月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200903_2.html', 500, 550);">主婦の友社「健康」</a>
+										<a class="open" href="popup_media/media200903_2.html">主婦の友社「健康」</a>
 									</div>
 								</td>
 								<td>『食べ放題ダイエット』 10ページ特集</td>
@@ -824,7 +833,7 @@
 								<th>2009年3月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200903_1.html', 730, 520);">朝日新聞出版「AERA」</a>
+										<a class="open" href="popup_media/media200903_1.html">朝日新聞出版「AERA」</a>
 									</div>
 								</td>
 								<td>『不況うつとED 5月に大量発生』掲載</td>
@@ -833,7 +842,7 @@
 								<th>2009年2月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('nikkei.html#17', 780, 670);">日本経済新聞 日曜日版</a>
+										<a class="open" href="popup_media/nikkei.html#17">日本経済新聞 日曜日版</a>
 									</div>
 								</td>
 								<td>連載 『私の健康法』 第17回</td>
@@ -842,7 +851,7 @@
 								<th>2009年2月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('nikkei.html#16', 780, 670);">日本経済新聞 日曜日版</a>
+										<a class="open" href="popup_media/nikkei.html#16">日本経済新聞 日曜日版</a>
 									</div>
 								</td>
 								<td>連載 『肯定から始める』 第16回</td>
@@ -851,7 +860,7 @@
 								<th>2009年2月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('nikkei.html#15', 780, 670);">日本経済新聞 日曜日版</a>
+										<a class="open" href="popup_media/nikkei.html#15">日本経済新聞 日曜日版</a>
 									</div>
 								</td>
 								<td>連載 『病気も健康の一部』 第15回</td>
@@ -860,7 +869,7 @@
 								<th>2009年2月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200902.html', 730, 520);">日経BP社「日経ヘルス」</a>
+										<a class="open" href="popup_media/media200902.html">日経BP社「日経ヘルス」</a>
 									</div>
 								</td>
 								<td>『ストレスに強いハッピー脳をつくる！』掲載</td>
@@ -869,7 +878,7 @@
 								<th>2009年2月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('nikkei.html#14', 780, 670);">日本経済新聞 日曜日版</a>
+										<a class="open" href="popup_media/nikkei.html#14">日本経済新聞 日曜日版</a>
 									</div>
 								</td>
 								<td>連載 『正常値症候群』 第14回</td>
@@ -878,7 +887,7 @@
 								<th>2009年1月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200901_2.html', 750, 520);">主婦の友社「健康」</a>
+										<a class="open" href="popup_media/media200901_2.html">主婦の友社「健康」</a>
 									</div>
 								</td>
 								<td>『我慢なしダイエット』掲載</td>
@@ -887,7 +896,7 @@
 								<th>2009年1月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('nikkei.html#13', 780, 670);">日本経済新聞 日曜日版</a>
+										<a class="open" href="popup_media/nikkei.html#13">日本経済新聞 日曜日版</a>
 									</div>
 								</td>
 								<td>連載 『粋なおばあさん』 第13回</td>
@@ -896,7 +905,7 @@
 								<th>2009年1月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('nikkei.html#12', 780, 670);">日本経済新聞 日曜日版</a>
+										<a class="open" href="popup_media/nikkei.html#12">日本経済新聞 日曜日版</a>
 									</div>
 								</td>
 								<td>連載 『更年期障害の引き金』 第12回</td>
@@ -905,24 +914,25 @@
 								<th>2009年1月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('nikkei.html#11', 780, 670);">日本経済新聞 日曜日版</a>
+										<a class="open" href="popup_media/nikkei.html#11">日本経済新聞 日曜日版</a>
 									</div>
 								</td>
 								<td>連載 『薬の処方量少なく』 第11回</td>
 							</tr>
 							<tr>
 								<th>2009年1月</th>
-								<td colspan="2">
+								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200901_1.html', 620, 550);">東京新聞</a>
+										<a class="open" href="popup_media/media200901_1.html">東京新聞</a>
 									</div>
 								</td>
+								<td></td>
 							</tr>
 							<tr>
 								<th>2009年1月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('nikkei.html#10', 780, 670);">日本経済新聞 日曜日版</a>
+										<a class="open" href="popup_media/nikkei.html#10">日本経済新聞 日曜日版</a>
 									</div>
 								</td>
 								<td>連載 『ストレスで月経不順』 第10回</td>
@@ -931,12 +941,12 @@
 					</div>
 					<div class="media">
 						<h3 class="tit02 font24">2008年</h3>
-						<table class="tb02" >
+						<table class="tb02 txt_left">
 							<tr>
 								<th>2008年12月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('nikkei.html#09', 780, 670);">日本経済新聞 日曜日版</a>
+										<a class="open" href="popup_media/nikkei.html#09">日本経済新聞 日曜日版</a>
 									</div>
 								</td>
 								<td>連載 『糖尿病・高脂血症』 第9回</td>
@@ -945,7 +955,7 @@
 								<th>2008年12月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200812.html', 500, 540);">朝日新聞出版「AERA」</a>
+										<a class="open" href="popup_media/media200812.html">朝日新聞出版「AERA」</a>
 									</div>
 								</td>
 								<td>『脳疲労で心身に異常』掲載</td>
@@ -954,7 +964,7 @@
 								<th>2008年12月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('nikkei.html#08', 780, 670);">日本経済新聞 日曜日版</a>
+										<a class="open" href="popup_media/nikkei.html#08">日本経済新聞 日曜日版</a>
 									</div>
 								</td>
 								<td>連載 『焼肉好きの人のケース』 第8回</td>
@@ -963,7 +973,7 @@
 								<th>2008年12月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('nikkei.html#07', 780, 670);">日本経済新聞 日曜日版</a>
+										<a class="open" href="popup_media/nikkei.html#07">日本経済新聞 日曜日版</a>
 									</div>
 								</td>
 								<td>連載 『快食療法』 第7回</td>
@@ -972,7 +982,7 @@
 								<th>2008年12月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('nikkei.html#06', 780, 670);">日本経済新聞 日曜日版</a>
+										<a class="open" href="popup_media/nikkei.html#06">日本経済新聞 日曜日版</a>
 									</div>
 								</td>
 								<td>連載 『五感療法』 第6回</td>
@@ -981,22 +991,25 @@
 								<th>2008年12月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('nikkei.html#05', 780, 670);">日本経済新聞 日曜日版</a>
+										<a class="open" href="popup_media/nikkei.html#05">日本経済新聞 日曜日版</a>
 									</div>
 								</td>
 								<td>連載 『脳疲労テスト』 第5回</td>
 							</tr>
 							<tr>
 								<th>2008年11月</th>
-								<td colspan="2">
-									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200811.html', 620, 600);">健康産業流通新聞</a>
-									</div>
-　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　		</tr>
-								<tr>	<th>2008年11月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('nikkei.html#04', 780, 670);">日本経済新聞 日曜日版</a>
+										<a class="open" href="popup_media/media200811.html">健康産業流通新聞</a>
+									</div>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<th>2008年11月</th>
+								<td>
+									<div class="link01">
+										<a class="open" href="popup_media/nikkei.html#04">日本経済新聞 日曜日版</a>
 									</div>
 								</td>
 								<td>連載 『食べ過ぎや便秘の原因は』 第4回</td>
@@ -1005,7 +1018,7 @@
 								<th>2008年11月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('nikkei.html#03', 780, 670);">日本経済新聞 日曜日版</a>
+										<a class="open" href="popup_media/nikkei.html#03">日本経済新聞 日曜日版</a>
 									</div>
 								</td>
 								<td>連載 『 「イライラ」 は警告する』 第3回</td>
@@ -1014,22 +1027,23 @@
 								<th>2008年11月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('nikkei.html#02', 780, 670);">日本経済新聞 日曜日版</a>
+										<a class="open" href="popup_media/nikkei.html#02">日本経済新聞 日曜日版</a>
 									</div>
 								</td>
 								<td>連載 『働き過ぎの 「理想脳」 』 第2回</td>
 							</tr>
 							<tr>
 								<th>2008年11月</th>
-								<td colspan="2" class="mincho font15">
+								<td class="mincho font15">
 									11月9日(日) 日本補完代替医療学会 『脳から』 講演
 								</td>
+								<td></td>
 							</tr>
 							<tr>
 								<th>2008年11月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('nikkei.html#01', 780, 670);">日本経済新聞 日曜日版</a>
+										<a class="open" href="popup_media/nikkei.html#01">日本経済新聞 日曜日版</a>
 									</div>
 								</td>
 								<td>連載 『わざわざジム通い』 第1回</td>
@@ -1038,7 +1052,7 @@
 								<th>2008年10月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200810_2.html', 720, 500);">プレジデント社「プレジデント Family」</a>
+										<a class="open" href="popup_media/media200810_2.html">プレジデント社「プレジデント Family」</a>
 									</div>
 								</td>
 								<td>『脳が癒されるスイカマッサージ』掲載</td>
@@ -1047,16 +1061,17 @@
 								<th>2008年10月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200810_1.html', 730, 520);">日経BP社「日経ヘルス」</a>
+										<a class="open" href="popup_media/media200810_1.html">日経BP社「日経ヘルス」</a>
 									</div>
 								</td>
 								<td>『我慢しないダイエット』掲載</td>
 							</tr>
 							<tr>
 								<th>2008年9月</th>
-								<td colspan="2" class="mincho font15">
+								<td class="mincho font15">
 									9月1日 テレビ神奈川 『1230アッ@と！！ハマランチョ』未病対策教えてドクター！ 出演
 								</td>
+								<td></td>
 							</tr>
 							<tr>
 								<th>2008年9月</th>
@@ -1069,7 +1084,7 @@
 								<th>2008年9月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200809.html', 750, 550);">マキノ出版「安心」</a>
+										<a class="open" href="popup_media/media200809.html">マキノ出版「安心」</a>
 									</div>
 								</td>
 								<td>『成功率9割超！我慢しないダイエット』掲載</td>
@@ -1083,15 +1098,16 @@
 							</tr>
 							<tr>
 								<th>2008年8月</th>
-								<td colspan="2" class="mincho font15">
+								<td class="mincho font15">
 									8月22日(金) 12:05〜12:40 ラジオ生出演 84.0MHZ 銀座・エスプリカフェ 『脳疲労と生活習慣美容』
 								</td>
+								<td></td>
 							</tr>
 							<tr>
 								<th>2008年5月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200805_5.html', 760, 550);">マガジンハウス「クロワッサン」</a>
+										<a class="open" href="popup_media/media200805_5.html">マガジンハウス「クロワッサン」</a>
 									</div>
 								</td>
 								<td>『好きな物を好きなだけ食べても脳を喜ばせれば痩せられる』 掲載</td>
@@ -1100,7 +1116,7 @@
 								<th>2008年5月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200805_4.html', 330, 370);">日本テレビ系列「おもいっきりイイ！！テレビ」</a>
+										<a class="open" href="popup_media/media200805_4.html">日本テレビ系列「おもいっきりイイ！！テレビ」</a>
 									</div>
 								</td>
 								<td>
@@ -1126,7 +1142,7 @@
 								<th>2008年5月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200805_3.html', 440, 430);">朝日新聞・読売新聞</a>
+										<a class="open" href="popup_media/media200805_3.html">朝日新聞・読売新聞</a>
 									</div>
 								</td>
 								<td>「脳疲労に克つ」出版　広告掲載</td>
@@ -1135,7 +1151,7 @@
 								<th>2008年5月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200805_2.html', 320, 270);">角川SSC「脳疲労に克つ」</a>
+										<a class="open" href="popup_media/media200805_2.html">角川SSC「脳疲労に克つ」</a>
 									</div>
 								</td>
 								<td>横倉院長、角川SSCより新書刊行</td>
@@ -1151,7 +1167,7 @@
 								<th>2008年5月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200805_1.html', 760, 530);">青春出版社「美人計画」 6月号</a>
+										<a class="open" href="popup_media/media200805_1.html">青春出版社「美人計画」 6月号</a>
 									</div>
 								</td>
 								<td>『スカルプケアで脳疲労を解消する！』掲載</td>
@@ -1160,36 +1176,39 @@
 								<th>2008年4月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200804.html', 480, 520);">扶桑社「週刊SPA！」</a>
+										<a class="open" href="popup_media/media200804.html">扶桑社「週刊SPA！」</a>
 									</div>
 								</td>
 								<td>『有名医師が毎日実践！[ 私のとっておき健康法 ]事典』掲載</td>
 							</tr>
 							<tr>
 								<th>2008年3月</th>
-								<td colspan="2" class="mincho font15">
+								<td class="mincho font15">
 									 日本テレビ系列 『おもいっきりイイ！！テレビ』 出演
 								</td>
-							</tr>
-							<tr>
-								<th>2008年3月</th>
-								<td colspan="2">
-									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200803_5.html', 360, 300);">J-WAVE「JAM THE WORLD」出演</a>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<th>2008年3月</th>
-								<td colspan="2" class="mincho font15">
-									 3月31日（金）〜4月4日（金） TBSラジオ「生島ヒロシのおはよう定食」出演
-								</td>
+								<td></td>
 							</tr>
 							<tr>
 								<th>2008年3月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200803_4.html', 750, 550);">小学館「週刊ポスト」</a>
+										<a class="open" href="popup_media/media200803_5.html">J-WAVE「JAM THE WORLD」出演</a>
+									</div>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<th>2008年3月</th>
+								<td class="mincho font15">
+									 3月31日（金）〜4月4日（金） TBSラジオ「生島ヒロシのおはよう定食」出演
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<th>2008年3月</th>
+								<td>
+									<div class="link01">
+										<a class="open" href="popup_media/media200803_4.html">小学館「週刊ポスト」</a>
 									</div>
 								</td>
 								<td>『肥満の鍵は「脳疲労だった」メタボ撃退『成功率8割』の「快食療法」の奥義』掲載</td>
@@ -1198,39 +1217,39 @@
 								<th>2008年3月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200803_3.html', 370, 550);">サンケイスポーツ</a>
+										<a class="open" href="popup_media/media200803_3.html">サンケイスポーツ</a>
 									</div>
 								</td>
 								<td>『脳疲労がメタボをつくる』掲載</td>
 							</tr>
 							<tr>
 								<th>2008年3月</th>
-								<td colspan="2">
-									<div class="link01">
-										<a>3月26日（水）日本テレビ系列「おもいっきりイイ！！テレビ」出演</a>
-									</div>
+								<td class="font15 mincho">
+									3月26日（水）日本テレビ系列「おもいっきりイイ！！テレビ」出演
 								</td>
+								<td></td>
 							</tr>
 							<tr>
 								<th>2008年3月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200803_1.html', 750, 550);">からだにいいこと社「からだにいいこと」</a>
+										<a class="open" href="popup_media/media200803_1.html">からだにいいこと社「からだにいいこと」</a>
 									</div>
 								</td>
 								<td>『からだにいいこと（脳でやせる五感ダイエットでメタボも凸お腹も解消する）』掲載</td>
 							</tr>
 							<tr>
 								<th>2008年2月</th>
-								<td colspan="2" class="mincho font15">
+								<td class="mincho font15">
 									2月26日（水） HBCラジオ北海道放送「カーナビラジオ午後一番」出演
 								</td>
+								<td></td>
 							</tr>
 							<tr>
 								<th>2008年1月</th>
 								<td>
 									<div class="link01">
-										<a href="JavaScript:void(0);" onClick="openFile('media200801.html', 520, 550);">フレグランスジャーナル社「creabeaux（クレアボー）」　No.53〜56号</a>
+										<a class="open" href="popup_media/media200801.html">フレグランスジャーナル社「creabeaux（クレアボー）」　No.53〜56号</a>
 									</div>
 								</td>
 								<td>『生活習慣美容の提案』連載（4回）</td>
@@ -1246,7 +1265,7 @@
 					</div>
 					<div class="media">
 						<h3 class="tit02 font24">2007年</h3>
-						<table class="tb02" >
+						<table class="tb02 txt_left">
 							<tr>
 								<th>2007年11月</th>
 								<td class="mincho font15">
@@ -1307,7 +1326,7 @@
 					</div>
 					<div class="media">
 						<h3 class="tit02 font24">2006年</h3>
-						<table class="tb02" >
+						<table class="tb02 txt_left">
 							<tr>
 								<th>2006年10月</th>
 								<td class="mincho font15">
@@ -1319,7 +1338,7 @@
 					</div>
 					<div class="media">
 						<h3 class="tit02 font24">2004年</h3>
-						<table class="tb02" >
+						<table class="tb02 txt_left">
 							<tr>
 								<th>2006年10月</th>
 								<td class="mincho font15">
@@ -1331,7 +1350,7 @@
 					</div>
 					<div class="media">
 						<h3 class="tit02 font24">2003年</h3>
-						<table class="tb02" >
+						<table class="tb02 txt_left">
 							<tr>
 								<th>2003年10月</th>
 								<td class="mincho font15">
@@ -1364,7 +1383,7 @@
 					</div>
 					<div class="media">
 						<h3 class="tit02 font24">2002年</h3>
-						<table class="tb02" >
+						<table class="tb02 txt_left">
 							<tr>
 								<th>2002年6月</th>
 								<td class="mincho font15">
@@ -1383,7 +1402,7 @@
 					</div>
 					<div class="media">
 						<h3 class="tit02 font24">2001年</h3>
-						<table class="tb02" >
+						<table class="tb02 txt_left">
 							<tr>
 								<th>2001年5月</th>
 								<td class="mincho font15">
@@ -1395,7 +1414,7 @@
 					</div>
 					<div class="media">
 						<h3 class="tit02 font24">2000年</h3>
-						<table class="tb02" >
+						<table class="tb02 txt_left">
 							<tr>
 								<th>2000年12月</th>
 								<td class="mincho font15">
@@ -1441,7 +1460,7 @@
 					</div>
 					<div class="media">
 						<h3 class="tit02 font24">1999年</h3>
-						<table class="tb02" >
+						<table class="tb02 txt_left">
 							<tr>
 								<th>1999年8月</th>
 								<td class="mincho font15">
@@ -1474,7 +1493,7 @@
 					</div>
 					<div class="media">
 						<h3 class="tit02 font24">1997年</h3>
-						<table class="tb02" >
+						<table class="tb02 txt_left">
 							<tr>
 								<th>1997年11月</th>
 								<td class="mincho font15">
@@ -1486,7 +1505,7 @@
 					</div>
 					<div class="media">
 						<h3 class="tit02 font24">1995年</h3>
-						<table class="tb02" >
+						<table class="tb02 txt_left">
 							<tr>
 								<th>1995年11月</th>
 								<td class="mincho font15">
@@ -1498,7 +1517,7 @@
 					</div>
 					<div class="media">
 						<h3 class="tit02 font24">1992年</h3>
-						<table class="tb02" >
+						<table class="tb02 txt_left">
 							<tr>
 								<th>1992年11月</th>
 								<td class="mincho font15">
@@ -1559,7 +1578,7 @@
 				</div>
 			</nav>
 		</div>
-		<p class="copyright">Copyright (C) 2010 Yokokura Clinic. All Rights Reserved. </p>
+		<p class="copyright">Copyright (C) 2018 Yokokura Clinic. All Rights Reserved. </p>
 		<div id="pagetop"><a class="opa" href="#wrapper"><img src="images/pagetop.png" width="69" height="70" alt="page top" /></a></div>
 	</footer>
 	<!-- フッター終了 -->

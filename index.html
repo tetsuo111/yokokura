@@ -8,9 +8,10 @@
 <meta name="keywords" content="健康,更年期障害,肥満,生活習慣病,ストレス,疲労,うつ,子宮癌,乳がん,自律神経失調症,月経困難症,子宮内膜症,生理不順,排卵障害,卵巣機能不全,避妊,不妊症,女性の健康,脳疲労,五感療法,アロマセラピー,アートセラピー,サウンドセラピー,快食,快便,快眠,メンタル,健康外来,禁煙">
 <title>健康外来サロン</title>
 
-<link rel="stylesheet" href="css/import.css" />
-<script src="js/jquery-1.11.0.min.js"></script>
-<script src="js/common.js"></script>
+<link rel="stylesheet" href="css/common.css" />
+<link rel="stylesheet" href="css/style.css" />
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
 
 <!--[if lt IE 9]>
 <script src="js/html5.js"></script>
@@ -37,23 +38,28 @@
 					<li>
 						<a href="health/index.html">健康外来サロンとは？</a>
 					</li>
-					<li>
-						<a href="personal/index.html">サロンメニュー</a>
-					</li>
+					
 					<li>
 						<a href="check/index.html">チェックテスト</a>
 					</li>
+					<li>
+						<a href="mufuan.html">無風庵</a>
+					</li>
+					<li>
+						<a href="personal/index.html">サロンメニュー</a>
+					</li>
 				</ul>
 			</nav>
-			<div class="event_link"><a class="opa" href="#">無風庵</a></div>
+			<div class="header-btn">
+				<a href="map.html" class="opa btn btn-3">アクセスマップ</a>
+			</div>
 		</div>
 	</header>
 	<!-- ヘッダー終了 -->
 	<!-- メインイメージ開始 -->
 	<div id="main_image">
-		<div class="wrap clearfix">
-			<div class="logo"><a class="opa" href="#"><img src="images/main_image_link.png" width="82" height="257" alt="無風庵" /></a></div>
-			<div class="text"><img src="images/main_image_text.png" width="82" height="314" alt="健康外来サロンでは、快食・快便・快眠・快適・・・" /></div>
+		<div class="wrap">
+			<img src="images/main_image_text.png" alt="無風庵" class="is-center" />
 		</div>
 	</div>
 	<!-- メインイメージ終了 -->
@@ -65,17 +71,21 @@
 			<div class="menu_box">
 				<nav>
 					<ul class="clearfix">
-						<li class="link03"><a class="opa" href="health/index.html">
-							<figure class="image"><img src="images/menu_image_03.png" width="210" height="170" alt="" /></figure>
+						<li><a class="opa" href="health/index.html">
+							<figure class="image"><img src="images/menu_image_1.png" alt="健康外来サロン" height="116" /></figure>
 							<span class="tit">健康外来サロンとは？</span>
 						</a></li>
-						<li class="link01"><a class="opa" href="personal/index.html">
-							<figure class="image"><img src="images/menu_image_01.png" width="210" height="170" alt="" /></figure>
-							<span class="tit">サロンメニュー</span>
-						</a></li>
-						<li class="link02"><a class="opa" href="check/index.html">
-							<figure class="image"><img src="images/menu_image_02.png" width="210" height="170" alt="" /></figure>
+						<li><a class="opa" href="check/index.html">
+							<figure class="image"><img src="images/menu_image_3.png" alt="チェックテスト" height="116" /></figure>
 							<span class="tit">チェックテスト</span>
+						</a></li>
+						<li><a class="opa" href="mufuan.html">
+							<figure class="image"><img src="images/menu_image_4.png" alt="無風庵" height="119" /></figure>
+							<span class="tit">無風庵</span>
+						</a></li>
+						<li><a class="opa" href="personal/index.html">
+							<figure class="image"><img src="images/menu_image_2.png" alt="サロンメニュー" /></figure>
+							<span class="tit">サロンメニュー</span>
 						</a></li>
 					</ul>
 				</nav>
@@ -83,95 +93,85 @@
 			
 
 			<div class="concept_box">
-				<h2>健康とは</h2>
+				<h2 class="is-adjust-margin">健幸とは</h2>
 				<div class="desc">
-					<p>健康外来に来た患者さんによく聞く質問です。
-					<br/>「ここに来る時、風はどっちから吹いていましたか。」
-					<br/>「頬で風を感じましたか。」
-					<br/>「雲はどっちに流れていましたか。」</p>
-					
+					<p>健康外来に来た患者さんによく聞く質問です。</p>
+					<p>「ここに来る時、風はどっちから吹いていましたか。」</p>
+					<p>「頬で風を感じましたか。」</p>
+					<p class="mb50">「雲はどっちに流れていましたか。」</p>
 					<p>時間に追われて歩いていたり、下を向いて歩いていたり、イヤホンをしていると風の音が聞こえません。スマホを見ていると限られた画面の情報しか入手できません。イライラしながら赤信号を待っていると五感が働きません。</p>
-					<p>信号待ちしている時にちょっと空を見上げると雲が流れています。風を頬で感じるかもしれません。歩道の樹木の香りがするかもしれません。自分の周りの身近な情報が、そして地球や宇宙からの情報が五感に入って来ます。</p>
+					<figure class="image mb25">
+						<img src="images/sky.jpg" alt="雲">
+					</figure>
+					<p class="mb75">信号待ちしている時にちょっと空を見上げると雲が流れています。風を頬で感じるかもしれません。歩道の樹木の香りがするかもしれません。自分の周りの身近な情報が、そして地球や宇宙からの情報が五感に入って来ます。</p>
 					<p>実はこの日々の生活の中にこそ健幸の原点があり、日常茶飯から生命力のエネルギーと人が生きる美学が生まれて来るのです。これが私の提唱する「健幸」です。</p>
-
 					<p>西洋医学からみた現在の健康科学はあくまでも予防医学的健康概念に止まっています。1990年日本初の「健康外来」を開設し、研究と実践から1993年「未知なる健康科学」と題して新しい健康概念を確立し発表しました。私が提唱した疲弊脳と健幸脳の概念による「ヒトの健康」は「人が生きるための生命力」です。</p>
-
+					<figure class="image mb25">
+						<img src="images/pwood.jpg" alt="哲学の木">
+					</figure>
 					<p>ここで人を一本の木に例えてみます。それぞれの木には根があり根は土壌から栄養を吸収しています。では土壌は人にとっては何かと言いますと、私達が生まれ育った日本の2000年の歴史に培われてきた歴史・文化・宗教・風習・習慣です。
-						日本人は春夏秋冬の季節を肌で感じ、日々の生活習慣を営み、更に高度な感性を磨き世界に類を見ない日本文化を築き上げて来ました。その感性こそが日本人の美学として受け継がれて来ています。日々の日常茶飯にこそ人生の質を高める「健幸の美学」があり、これが「人が生きるための美学」です。</p>
-
+					日本人は春夏秋冬の季節を肌で感じ、日々の生活習慣を営み、更に高度な感性を磨き世界に類を見ない日本文化を築き上げて来ました。その感性こそが日本人の美学として受け継がれて来ています。日々の日常茶飯にこそ人生の質を高める「健幸の美学」があり、これが「人が生きるための美学」です。</p>
 					<p>真の健幸で得られた生活美の豊かな感性は和の心を学ぶことでき、2000年培って来た日本人の健幸そのものです。そして人生を日本の歴史文化にみられる「道」に喩え、美意識を深めれば、その智恵と喜びを同時に得ることができ、生きる和の美学が生まれます。これを「和美」として100年先の子供達に引継いで行くことが、我々の課せられた使命です。</p>
 				</div>
-				<img class="back01" src="images/concept_back_01.png" width="141" height="65" alt="" />
-				<img class="back02" src="images/concept_back_02.png" width="326" height="94" alt="" />
+				<img class="back01" src="images/concept_back_01.png" width="141" height="65" alt="背景_花1" />
+				<img class="back02" src="images/concept_back_02.png" width="326" height="94" alt="背景_花2" />
 			</div>
-
-
-			<div class="event_box">
-				<h2>イベント</h2>
-				<div class="event_link">
-					<a  class="opa" href="#">
-						<span class="tit">無風庵</span>
-						<span class="detail">詳細</span>
-					</a>
-				</div>
-				<a href="#"><dl>
-					<dt>五感の豊かさが魅力をつくる</dt>
-					<dd>講師：五十嵐久美子・糀本成美   日時：6/08(水)～7/20(水)　計4回　2時間/1回<br />場所：東京都港区港南2丁目16-8 ストーリア品川</dd>
-				</dl></a>
-				<a href="#"><dl>
-					<dt>インテリアとして飾る貴方だけの書作品を創ってみませんか！</dt>
-					<dd>講師：植野文隆  日時：9/22(木)～10/13(木)　計4回　2時間/1回<br />場所：東京都港区南青山5丁目11-24 Carre MOJI ギャラリー</dd>
-				</dl></a>
-				<a href="#"><dl>
-					<dt>女も男も今よりもっと美しく生きる [トワイライトコース]</dt>
-					<dd>講師：植野文隆  日時：9/22(木)～10/13(木)　計4回　2時間/1回<br />場所：東京都港区南青山5丁目11-24 Carre MOJI ギャラリー</dd>
-				</dl></a>
-				<!--<div class="more"><a class="opa" href="#">もっと見る</a></div>-->
-			</div>
-
 			
 			<div class="news_box">
-				<h2>お知らせ</h2>
+				<h2 class="is-adjust-margin">お知らせ</h2>
 				<dl>
-					<dt>2017年12月06日</dt>
-					<dd>12月28日（木）受付終了時間　17時迄　となります。
-					<br/>年末年始の休診は、12月29日（金）～ 1月4日（木）
-					<br/>1月5日（金）から通常診療となります。</dd>
+					<dt>2018年1月○○日</dt>
+					<dd>健康外来サロンホームページ　リニューアル
+						<p>日頃は健康外来サロンホームページをご利用いただき、まことにありがとうございます。</p>
+						<p>弊社Webサイトは、2018年○○月○○日より、リニューアル致しました。</p>
+						<p>引き続きご愛顧いただきますよう、何卒よろしくお願い致します。</p>
+					</dd>
 				</dl>
-				<dl>
-					<dt>2017年10月11日</dt>
-					<dd>■診療時間変更のお知らせ
-					<br/>・11月2日(木)
-					 <br/>・午前の診療：10～12時
-					 <br/>※午前の最終受付時間は初診、再診ともに午前11:30まで
-					 <br/>・午後の診療：16～19時
-					<br/>※院長葬儀出席のため診療時間変更となります</dd>
-				</dl>
-				<dl>
-					<dt>2017年7月1日</dt>
-					<dd>港区無料検診が7月1日より始まりました。　1月までの期間です。
-					<br/>子宮癌検診・乳癌検診・超音波エコー検査 
-					<br/>ヒトパピローマ検査</dd>
-				</dl>
+				
 			</div>
-			
+
+			<div class="event_box">
+				<h2 class="is-adjust-margin">イベント</h2>
+				<dl>
+					<dt>ココロとカラダを整える「ゆんたく（おしゃべり）」ワーク</dt>
+					<dd>
+						<ul>
+							<li>日時：1月21日（日） 14：30 ～ 17:00</li>
+							<li>場所：横倉クリニック 健康外来サロン</li>
+							<li>講師：カラダのワーク担当：福山聖子 ・ うた＆ココロのワーク担当：紀々</li>
+						</ul>
+					</dd>
+				</dl>
+				<dl>
+					<dt>無風茶会</dt>
+					<dd>
+						<ul>
+							<li>日時：毎月第２土曜日　17:00 ～ 19:00</li>
+							<li>場所：横倉クリニック　健康外来サロン</li>
+							<li>亭主：横倉　恒風</li>
+						</ul>
+					</dd>
+				</dl>
+				<div class="more"><a class="opa" href="recently_events.html">さらに詳しく</a></div>
+			</div>
+
 			<div class="media_box">
 				<h3 class="tit01"><img src="images/media_title_01.png" width="70" height="272" alt="掲載雑誌" /></h3>
 				<ul class="list">
 					<li>
-						<figure class="image"><a class="opa" href="javascript:void(0);" onClick="window.open('./popup_media/media89.html', 'newwin', 'width=920, height=630, toolbar=no, status=no, menubar=no, resizable=yes, scrollbars=yes')"><img src="images/201709_1.png" width="120" height="154" alt="" /></a></figure>
+						<figure class="image"><a class="open opa"  href="popup_media/media89.html"><img src="images/201709_1.png" width="120" height="154" alt="マリソル" /></a></figure>
 						<p><span class="days">9月1日発売</span><br /><span class="name">「Marisol」</span></p>
 					</li>
 					<li>
-						<figure class="image"><a class="opa" href="javascript:void(0);" onClick="window.open('./popup_media/media88.html', 'newwin', 'width=920, height=630, toolbar=no, status=no, menubar=no, resizable=yes, scrollbars=yes')"><img src="images/2017_05_1.png" width="120" height="154" alt="" /></a></figure>
+						<figure class="image"><a class="open opa"  href="popup_media/media88.html"><img src="images/2017_05_1.png" width="120" height="154" alt="セラピスト" /></a></figure>
 						<p><span class="days">5月6日発売</span><br /><span class="name">「セラピスト」</span></p>
 					</li>
 					<li>
-						<figure class="image"><a class="opa" href="javascript:void(0);" onClick="window.open('./popup_media/media87.html', 'newwin', 'width=920, height=630, toolbar=no, status=no, menubar=no, resizable=yes, scrollbars=yes')"><img src="images/2017_02_1.png" width="113" height="154" alt="" /></a></figure>
+						<figure class="image"><a class="open opa"  href="popup_media/media86.html"><img src="images/2017_02_1.png" width="113" height="154" alt="からだにいいこと" /></a></figure>
 						<p><span class="days">2月16日発売</span><br /><span class="name">「からだにいいこと」</span></p>
 					</li>
 					<li>
-						<figure class="image"><a class="opa" href="javascript:void(0);" onClick="window.open('./popup_media/media86.html', 'newwin', 'width=600, height=670, toolbar=no, status=no, menubar=no, resizable=yes, scrollbars=yes')"><img src="images/2017_02-2_1.png" width="115" height="155" alt="" /></a></figure>
+						<figure class="image"><a class="open opa"  href="popup_media/media87.html"><img src="images/2017_02-2_1.png" width="115" height="155" alt="美しくなる食事療法" /></a></figure>
 						<p><span class="days">2月7日発売</span><br /><span class="name">「美しくなる食事療法」</span></p>
 					</li>
 				</ul>
@@ -185,15 +185,15 @@
 						<p>心と体が軽くなる<br />本物のダイエット</p>
 					</li>
 					<li>
-						<figure class="image"><a class="opa" href="http://www.amazon.co.jp/%E7%97%85%E6%B0%97%E3%81%8C%E6%B2%BB%E3%82%8B%E3%80%8C%E8%84%B3%E3%80%8D%E3%81%AE%E5%81%A5%E5%BA%B7%E6%B3%95-%E6%A8%AA%E5%80%89-%E6%81%92%E9%9B%84/dp/4837923631/ref=pd_sim_b_1" target="_blank"><img src="images/book_image_06.png" width="105" height="154" alt="" /></a></figure>
+						<figure class="image"><a class="opa" href="http://www.amazon.co.jp/%E7%97%85%E6%B0%97%E3%81%8C%E6%B2%BB%E3%82%8B%E3%80%8C%E8%84%B3%E3%80%8D%E3%81%AE%E5%81%A5%E5%BA%B7%E6%B3%95-%E6%A8%AA%E5%80%89-%E6%81%92%E9%9B%84/dp/4837923631/ref=pd_sim_b_1" target="_blank"><img src="images/book_image_06.png" width="105" height="154" alt="脳の健康法" /></a></figure>
 						<p>病気が治る<br />「脳」の健康法</p>
 					</li>
 					<li>
-						<figure class="image"><a class="opa" href="http://www.amazon.co.jp/%E8%84%B3%E7%96%B2%E5%8A%B4%E3%81%AB%E5%85%8B%E3%81%A4%E2%80%95%E3%82%B9%E3%83%88%E3%83%AC%E3%82%B9%E3%82%92%E6%84%9F%E3%81%98%E3%81%AA%E3%81%84%E8%84%B3%E3%81%8C%E5%81%A5%E5%BA%B7%E3%82%92%E3%81%A4%E3%81%8F%E3%82%8B-%E8%A7%92%E5%B7%9DSSC%E6%96%B0%E6%9B%B8-%E6%A8%AA%E5%80%89-%E6%81%92%E9%9B%84/dp/4827550395/ref=pd_sim_b_1" target="_blank"><img src="images/book_image_07.png" width="108" height="155" alt="" /></a></figure>
+						<figure class="image"><a class="opa" href="http://www.amazon.co.jp/%E8%84%B3%E7%96%B2%E5%8A%B4%E3%81%AB%E5%85%8B%E3%81%A4%E2%80%95%E3%82%B9%E3%83%88%E3%83%AC%E3%82%B9%E3%82%92%E6%84%9F%E3%81%98%E3%81%AA%E3%81%84%E8%84%B3%E3%81%8C%E5%81%A5%E5%BA%B7%E3%82%92%E3%81%A4%E3%81%8F%E3%82%8B-%E8%A7%92%E5%B7%9DSSC%E6%96%B0%E6%9B%B8-%E6%A8%AA%E5%80%89-%E6%81%92%E9%9B%84/dp/4827550395/ref=pd_sim_b_1" target="_blank"><img src="images/book_image_07.png" width="108" height="155" alt="脳疲労" /></a></figure>
 						<p>脳疲労に克つ<br />日野原重明先生推</p>
 					</li>
 					<li>
-						<figure class="image"><a class="opa" href="http://www.amazon.co.jp/%E3%83%A1%E3%82%BF%E3%83%9C%E4%BD%93%E8%B3%AA%E3%81%AF%E3%80%8C%E8%84%B3%E7%96%B2%E5%8A%B4%E3%80%8D%E3%81%8C%E5%8E%9F%E5%9B%A0%E3%81%A0%E3%81%A3%E3%81%9F-%E6%A8%AA%E5%80%89-%E6%81%92%E9%9B%84/dp/4198624801/ref=pd_sim_b_1" target="_blank"><img src="images/book_image_08.png" width="105" height="154" alt="" /></a></figure>
+						<figure class="image"><a class="opa" href="http://www.amazon.co.jp/%E3%83%A1%E3%82%BF%E3%83%9C%E4%BD%93%E8%B3%AA%E3%81%AF%E3%80%8C%E8%84%B3%E7%96%B2%E5%8A%B4%E3%80%8D%E3%81%8C%E5%8E%9F%E5%9B%A0%E3%81%A0%E3%81%A3%E3%81%9F-%E6%A8%AA%E5%80%89-%E6%81%92%E9%9B%84/dp/4198624801/ref=pd_sim_b_1" target="_blank"><img src="images/book_image_08.png" width="105" height="154" alt="メタボ体質" /></a></figure>
 						<p>メタボ体質は<br />「脳疲労」が原因だった</p>
 					</li>
 				</ul>
@@ -206,16 +206,13 @@
 			<div class="side_yokokura">
 				<img src="images/side_image_01.png" width="344" height="177" alt="横倉恒雄" />
 			</div>
-			<div class="side_profile">
-				<p><a href="profile.html" class="opa btn-4">院長プロフィール</a></p>
-			</div>
-			<div class="side_profile">
-				<p><a href="user/mail/entry.html" class="opa btn-3">メルマガ登録</a></p>
+			<div class="side_add">
+				<a href="profile.html" class="opa btn btn-1 btn-medium txt_center">院長プロフィール</a>
 			</div>
 			<dl class="side_facebook">
-				<dt><a class="opa" href="http://ja-jp.facebook.com/yokokuraclinic/">院長先生の独り言</a></dt>
+				<dt></dt>
 				<dd>
-					<div class="fb-page" data-href="https://www.facebook.com/yokokuraclinic/" data-tabs="timeline" data-width="220" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/yokokuraclinic/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/yokokuraclinic/">横倉クリニック</a></blockquote></div>
+					<div class="fb-page" data-href="https://www.facebook.com/kenkogairaisalon/" data-tabs="timeline" data-width="220" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/kenkogairaisalon/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/kenkogairaisalon/">横倉クリニック</a></blockquote></div>
 				</dd>
 			</dl>
 			<div class="side_bnr">
@@ -226,6 +223,7 @@
 					<li><a class="opa" href="counseling.html" target="_blank"><img src="images/bnr_04.png" width="220" height="90" alt="心理カウンセリング" /></a></li>
 					<li><a class="opa" href="hashidou.html" target="_blank"><img src="images/bnr_05.png" width="220" height="90" alt="日本箸道協会" /></a></li>
 					<li><a class="opa" href="organizer.html" target="_blank"><img src="images/bnr_06.png" width="220" height="90" alt="生活習慣美容研究会事務局" /></a></li>
+					<li><a class="opa" href="user/mail/entry.html" target="_blank"><img src="images/mail_logo.png" width="220" height="90" alt="メールマガジンロゴ" /></a></li>
 				</ul>
 			</div>
 		</aside>
@@ -262,7 +260,7 @@
 				</div>
 			</nav>
 		</div>
-		<p class="copyright">Copyright (C) 2010 Yokokura Clinic. All Rights Reserved. </p>
+		<p class="copyright">Copyright (C) 2018 Yokokura Clinic. All Rights Reserved. </p>
 		<div id="pagetop"><a class="opa" href="#wrapper"><img src="images/pagetop.png" width="69" height="70" alt="page top" /></a></div>
 	</footer>
 	<!-- フッター終了 -->

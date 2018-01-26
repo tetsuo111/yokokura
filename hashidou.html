@@ -8,12 +8,13 @@
 <meta name="keywords" content="健康,更年期障害,肥満,生活習慣病,ストレス,疲労,うつ,子宮癌,乳がん,自律神経失調症,月経困難症,子宮内膜症,生理不順,排卵障害,卵巣機能不全,避妊,不妊症,女性の健康,脳疲労,五感療法,アロマセラピー,アートセラピー,サウンドセラピー,快食,快便,快眠,メンタル,健康外来,禁煙">
 <title>日本箸道協会</title>
 
-<link rel="stylesheet" href="css/import.css" />
+<link rel="stylesheet" href="css/common.css" />
+<link rel="stylesheet" href="css/style.css" />
 <script src="js/jquery-1.11.0.min.js"></script>
 <script src="js/common.js"></script>
 
 <!--[if lt IE 9]>
-<script src="jshtml5.js"></script>
+<script src="js/html5.js"></script>
 <![endif]-->
 </head>
 <body>
@@ -21,22 +22,32 @@
 	<!-- ヘッダー開始 -->
 	<header id="header">
 		<div class="wrap">
-			<h1><a href="index.html"><img src="images/logo.png" width="114" height="265" alt="健康外来サロン" /></a></h1>
+			<h1 class="home"><a href="index.html"><img src="images/logo.png" width="114" height="265" alt="健康外来サロン" /></a></h1>
 			<nav id="navi">
 				<ul>
-					<li><a class="active" href="health/index.html">健康外来サロンとは？</a></li>
-					<li><a href="personal/index.html">サロンメニュー</a></li>
-					<li><a href="check/index.html">チェックテスト</a></li>
+					<li>
+						<a href="health/index.html">健康外来サロンとは？</a>
+					</li>
+					
+					<li>
+						<a href="check/index.html">チェックテスト</a>
+					</li>
+					<li>
+						<a href="mufuan.html">無風庵</a>
+					</li>
+					<li>
+						<a href="personal/index.html">サロンメニュー</a>
+					</li>
 				</ul>
 			</nav>
-			<div class="event_link"><a class="opa" href="#">無風庵</a></div>
+			<div class="header-btn">
+				<a href="map.html" class="opa btn btn-3">アクセスマップ</a>
+			</div>
 		</div>
 	</header>
 	<!-- ヘッダー終了 -->
 	<!-- ページタイトル開始 -->
-	<div id="page_title">
-		
-	</div>
+	<div id="page_title"></div>
 	<!-- ページタイトル終了 -->
 	<!-- コンテンツ開始 -->
 	<div id="content" class="clearfix">
@@ -50,7 +61,7 @@
 				<div class="concept_box">
 					<div class="desc">
 						<figure class="image txt_center">
-							<img src="images/hashido_logo.png" alt="箸道タイトル" width="100%">
+							<img src="images/hasido.png" alt="箸道タイトル" width="100%">
 						</figure>
 					</div>
 				</div>
@@ -62,7 +73,7 @@
 					</div>
 				</div>
 				<div class="concept_box">
-					<h4 class="tit02 font24">箸道の考えを一緒に伝えていきませんか</h4>
+					<h3 class="tit02 font24">箸道の考えを一緒に伝えていきませんか</h3>
 					<div class="desc">
 						<p>主に、日本の食文化に興味を持ち、なんとかその文化を守り伝え、さらに新たな食文化を創造していきたいという食への関心の高い個人及び法人の方、一緒に活動していきませんか！</p>
 					</div>
@@ -77,50 +88,67 @@
 								</tr>
 								<tr>
 									<td class="bold green2">理事長</td>
-									<td>横倉　恒雄　</td>
+									<td>横倉　恒雄</td>
 									<td class="txt_left">医療法人社団健人会横倉クリニック　健康外来サロン理事長</td>
 								</tr>
 								<tr>
 									<td class="bold green2">副理事長</td>
-									<td>牟田　実<br/>伊藤　朝子</td>
-									<td class="txt_left">銀座木挽町料亭「朝川」女将）<br/>食と生活ラボ代表</td>
+									<td>
+										<ul>
+											<li>牟田　実</li>
+											<li>伊藤　朝子</li>
+										</ul>
+									</td>
+									<td class="txt_left">
+										<ul>
+											<li>食と生活ラボ代表</li>
+											<li>銀座木挽町料亭「朝川」女将</li>
+											</ul>
+									</td>
 								</tr>
 								<tr>
 									<td class="bold green2">理事</td>
-									<td>佐藤　有紀子
-										<br/>加納　有美子
-										<br/>木村　任成　</td>
-									<td class="txt_left">マネジメントコンサルタント<br/>栄養士<br/>クリエイティブ・コミュニケーション・プロデューサー</td>
+									<td>
+										<ul>
+											<li>佐藤　有紀子</li>
+											<li>加納　有美子</li>
+											<li>木村　任成</li>
+										</ul>
+									</td>
+									<td class="txt_left">
+										<ul>
+											<li>マネジメントコンサルタント</li>
+											<li>栄養士</li>
+											<li>クリエイティブ・コミュニケーション・プロデューサー</li>
+										</ul>
+									</td>
 								</tr>
 								<tr>
 									<td class="bold green2">監事</td>
-									<td colspan="2">女性と仕事の未来館 ホール
-										東京都港区芝5-35-3<br/>TEL：03-5444-4151　FAX：03-5444-4152</td>
-								</tr>
-								<tr>
-									<td class="bold green2">交通案内</td>
 									<td>小川　智由<br/>岩崎　達夫　</td>
 									<td class="txt_left">明治大学商学部教授<br/>アダマス代表</td>
 								</tr>
 								<tr>
-									<td class="bold green2">参加費</td>
-									<td colspan="2">3,000円</td>
-								</tr>
-								<tr>
 									<td class="bold green2">世話人会</td>
-									<td class="txt_left">天野　洋一
-										<br/>伊集院　憲弘
-										<br/>高柳　和江
-										<br/>中林　茂雄
-										<br/>吉田　文司
-										<br/>米田　幸正
+									<td class="txt_left">
+										<ul>
+											<li>天野　洋一</li>
+											<li>伊集院　憲弘</li>
+											<li>高柳　和江</li>
+											<li>中林　茂雄</li>
+											<li>吉田　文司</li>
+											<li>米田　幸正</li>
+										</ul>
 									</td>
-									<td colspan="3" class="txt_left">群馬日産自動車株式会社　取締役社長
-										<br/>Office N&I　代表取締役
-										<br/>医学博士　東京医療保健大学教授
-										<br/>箸久店主
-										<br>文楽人形遣い
-										<br/>スギホールディングス株式会社　代表取締役社長
+									<td colspan="3" class="txt_left">
+										<ul>
+											<li>群馬日産自動車株式会社　取締役社長</li>
+											<li>Office N&I　代表取締役</li>
+											<li>医学博士　東京医療保健大学教授</li>
+											<li>箸久店主</li>
+											<li>文楽人形遣い</li>
+											<li>スギホールディングス株式会社　代表取締役社長</li>
+										</ul>
 									</td>
 								</tr>
 							</tbody>
@@ -135,7 +163,7 @@
 				<div class="concept_box">
 					<h4  class="tit02 font24">これまでの活動の紹介</h4>
 					<div class="desc">
-						<ul>
+						<ul class="bg01">
 							<li>エグゼクティブ向け箸道会食術講座（料亭銀座朝川）</li>
 							<li>ジュニア箸技能検定</li>
 							<li>箸の日特集「鮎の骨抜き」（NHKおはようニッポン 08年8月）</li>
@@ -152,23 +180,28 @@
 				<div class="concept_box">
 					<h4 class="tit02 font24">お申し込み・問い合わせ先</h4>
 					<div class="desc">
-						<table class="tb01 orgnizer-table2">
+						<table class="tb01 orgnizer-table2 mb10">
 							<tbody>
 								<tr>
-									<td class="bold">問い合わせ先</td>
-									<td><span class="link01"><a class="opa bold" href="mailto:info@shoku-labo.com">こちらから</a></span><br/>担当：佐藤　有紀子 （さとう　ゆきこ）まで</td>
-								</tr>
-								<tr>
 									<td class="bold">NPO法人 日本箸道協会</td>
-									<td>Tel：03-5749-5013　/　Fax：03-3785-0547<br/>お問い合わせはできるだけ<span class="bold">メール</span>でお願い致します。</td>
+									<td>
+										<ul>
+											<li>Tel：03-5749-5013　/　Fax：03-3785-0547
+											</li>
+											<li>
+												メール:
+												<span class=""><a class="opa bold" href="info@shoku-labo.com">info@shoku-labo.com</a></span>
+												<br/><span class="note">お問い合わせはできるだけメールでお願い致します。</span>
+											</li>
+											<li>
+												担当者：佐藤　有紀子 （さとう　ゆきこ）まで
+											</li>
+										</ul>
+									</td>
 								</tr>
 							</tbody>
-							<tfoot>
-								<tr>
-									<td colspan="2" class="txt_left table-bottom-none"><span class="note">お申込に際していただいた個人情報は規定に従い管理いたします</span></td>
-								</tr>
-							</tfoot>
 						</table>
+						<p><span class="note">お申込に際していただいた個人情報は規定に従い管理いたします</span></p>
 					</div>
 				</div>
 			</section>
@@ -218,7 +251,7 @@
 				</div>
 			</nav>
 		</div>
-		<p class="copyright">Copyright (C) 2010 Yokokura Clinic. All Rights Reserved. </p>
+		<p class="copyright">Copyright (C) 2018 Yokokura Clinic. All Rights Reserved. </p>
 		<div id="pagetop"><a class="opa" href="#wrapper"><img src="images/pagetop.png" width="69" height="70" alt="page top" /></a></div>
 	</footer>
 	<!-- フッター終了 -->

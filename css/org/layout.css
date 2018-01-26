@@ -1,0 +1,379 @@
+@charset "UTF-8";
+
+/**
+ *
+ * レイアウト、共通コンテンツ
+ *
+**/
+
+
+/**
+ * ラッパー
+**/
+
+#wrapper {
+	padding: 0 0 0 0;
+	overflow: hidden;
+}
+
+
+/**
+ * ヘッダー
+**/
+#header {
+	width: 100%;
+	height: 60px;
+	background: #ffffff;
+}
+
+#header img {
+	display: block;
+}
+
+#header .wrap {
+	margin: 0 auto;
+	width: 970px;
+	height: 60px;
+	text-align: left;
+	position: relative;
+}
+
+#header .wrap h1 {
+	width: 114px;
+	position: absolute;
+	top: 20px;
+	left: 48px;
+	z-index: 1;
+}
+
+#header .wrap h1.home {
+	left: 20px;
+}
+
+#header .wrap .event_link {
+	width: 120px;
+	position: absolute;
+	top: 14px;
+	right: 23px;
+	z-index: 1;
+}
+
+#header .wrap .event_link a {
+	padding: 0 20px 0 0;
+	width: 100%;
+	height: 30px;
+	line-height: 26px;
+	text-align: center;
+	font-size: 14px;
+	font-family: "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+	color: #2f856f;
+	background: #ffffff url("../images/arrow_08.png") no-repeat 89px center;
+	border: 2px solid #2f866f;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+}
+
+
+
+/**
+ * ナビゲーション
+**/
+#navi {
+	position: absolute;
+	top: 20px;
+	left: 230px;
+	z-index: 1;
+}
+
+#navi ul {
+	overflow: hidden;
+}
+
+#navi ul li {
+	margin: 0 60px 0 0;
+	float: left;
+	display: inline;
+}
+
+#navi ul li a {
+	padding: 0 3px;
+	line-height: 1.4em;
+	height: 40px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+	letter-spacing: 1px;
+	color: #0f1211;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-bottom: 4px solid #ffffff;
+	display: block;
+}
+
+#navi ul li a:hover {
+	text-decoration: none;
+	border-bottom: 4px solid #2f866f;
+}
+
+#navi ul li a.active {
+	text-decoration: none;
+	border-bottom: 4px solid #2f866f;
+}
+
+
+/**
+ * ページタイトル
+**/
+#page_title {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 100%;
+	height: 290px;
+	background: url("../images/page_title_back_01.png") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	display: table;
+}
+
+#page_title h2 {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 100%;
+	height: 290px;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#page_title h2 img {
+	margin: auto;
+	display: block;
+}
+
+
+#page_title.event {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 100%;
+	height: 592px;
+	background: url("../images/event_page_title_back_01.png") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	display: block;
+}
+
+#page_title.event h2 {
+	margin: 0 auto 0 auto;
+	padding: 0 0 0 0;
+	width: 970px;
+	height: 592px;
+	text-align: left;
+	display: block;
+	position: relative;
+}
+
+#page_title.event h2 img {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	position: absolute;
+	top: 196px;
+	right: 0;
+}
+
+
+/**
+ * メインイメージ
+**/
+#main_image {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 100%;
+	height: 380px;
+	background: url("../images/main_image_back.png") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+
+#main_image img {
+	display: block;
+}
+
+#main_image .wrap {
+	margin: 0 auto;
+	width: 970px;
+	height: 380px;
+}
+
+#main_image .wrap .logo {
+	margin: 37px 111px 0 0;
+	float: right;
+	display: inline;
+}
+
+#main_image .wrap .text {
+	margin: 37px 53px 0 0;
+	float: right;
+	display: inline;
+}
+
+
+/**
+ * コンテンツ
+**/
+#content {
+	margin: 0 auto;
+	padding: 42px 0 100px 0;
+	width: 970px;
+	text-align: left;
+}
+
+#content.event {
+	margin: 0 auto;
+	padding: 0 0 0 0;
+	width: 100%;
+	text-align: center;
+}
+
+
+/**
+ * メインコンテンツ
+**/
+#main {
+	width: 690px;
+	float: right;
+	display: inline;
+}
+
+
+/**
+ * コンテンツ
+**/
+#side {
+	width: 220px;
+	float: left;
+	display: inline;
+}
+
+
+/**
+ * フッター
+**/
+#footer {
+	padding: 50px 0 0 0;
+	width: 100%;
+	line-height: 1.4em;
+	font-size: 14px;
+	text-align: center;
+	background: #fbfcfd;
+	position: relative;
+}
+
+#footer .wrap {
+	margin: 0 auto;
+	padding: 0 0 60px 0;
+	width: 970px;
+	text-align: left;
+	overflow: hidden;
+}
+
+#footer .wrap .info {
+	margin: 0 0 0 27px;
+	width: 380px;
+	float: left;
+	display: inline;
+}
+
+#footer .wrap .info .logo {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+#footer .wrap .info .address {
+	margin: 0 0 0 0;
+	padding: 0 0 0 44px;
+	line-height: 1.2em;
+	font-size: 10px;
+	font-family: "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+	color: #211f1f;
+}
+
+#footer .wrap .link {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 530px;
+	float: right;
+	display: inline;
+}
+
+#footer .wrap .link .box01 {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 190px;
+	float: left;
+	display: inline;
+}
+
+#footer .wrap .link .box02 {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 140px;
+	float: left;
+	display: inline;
+}
+
+#footer .wrap .link .box03 {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 180px;
+	float: left;
+	display: inline;
+}
+
+#footer .wrap .link li {
+	margin: 0 0 0 0;
+	padding: 0 0 5px 0;
+	line-height: 1.4em;
+	font-size: 13px;
+	font-family: "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+	text-align: right;
+}
+
+#footer .wrap .link li a {
+	margin: 0 0 0 0;
+	padding: 0 18px 0 0;
+	background: url("../images/arrow_03.png") no-repeat right center;
+}
+
+#footer .copyright {
+	line-height: 70px;
+	font-size: 12px;
+	font-family: "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+	text-align: center;
+	color: #8b9493;
+	background: #f3f6f7;
+	clear: both;
+}
+
+#footer #pagetop {
+	width: 69px;
+	height: 70px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+}
+
+#footer #pagetop img {
+	display: block;
+}
+
+
