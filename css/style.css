@@ -687,6 +687,10 @@ select.txt_w120 {
 	margin-top: 80px;
 	font-size: 20px;
 }
+.event_info .sub_title02 {
+	margin: 50px 0 20px 0;
+	font-size: 20px;
+}
 
 /*** テーブル ***/
 .event_info .table {
@@ -701,7 +705,6 @@ select.txt_w120 {
 }
 
 .event_info .table.table01 {
-	margin-top: 20px;
 	font-size: 16px;
 }
 
