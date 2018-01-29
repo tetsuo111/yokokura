@@ -649,6 +649,39 @@ select.txt_w120 {
 	text-align: left;
 }
 
+.post .event_box table{
+	margin: 0;
+	padding: 0;
+}
+
+.post .event_box table th{
+	font-weight: normal;
+	color: black;
+	width: 5%;
+	padding: 0;
+}
+
+.post .event_box table td{
+	padding: 0;
+}
+
+.post .event_box .tit01{
+	padding: 0;
+	line-height: 35px;
+	background-color: #2f866f;
+}
+
+/*アクセスリンク*/
+.post .event_box a.is-link{
+	background-image: url(../images/arrow_07.png);
+	background-position: center right 15px;
+	background-repeat: no-repeat;
+	font-family: "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+	color: #2f856f;
+	font-weight: 600;
+	padding: 0 30px 2px 30px;
+}
+
 /*************************
 *無風庵 .event_info
 **************************/
@@ -720,8 +753,9 @@ select.txt_w120 {
 	border-bottom: 2px solid #dadee0;
 }
 
-.event_info a.link-type-1{
+.event_info a.is-link{
 	color: #2f866f;
+	font-family: "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
 	font-weight:600;
 	padding-right: 20px;
 	background: url(../images/arrow_07.png) no-repeat right center;

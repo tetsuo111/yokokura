@@ -1291,13 +1291,13 @@ textarea.textarea_w600 {
 .event_box .more a {
 	margin: 0 0 0 0;
 	padding: 0 0 0 27px;
-	width: 190px;
+	width: 200px;
 	height: 38px;
 	line-height: 34px;
 	font-size: 15px;
 	font-family: "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
 	color: #211f1f;
-	background: url("../images/arrow_05.png") no-repeat 160px center;
+	background: url("../images/arrow_05.png") no-repeat 170px center;
 	border: 2px solid #d3d8db;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
